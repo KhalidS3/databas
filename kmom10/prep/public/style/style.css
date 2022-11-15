@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+html {
+    background: url('../img/bgp1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 8px auto;
+    background: none;
+    width: 700px;
+    color: black;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Robot Condensed', sans-serif;
+}
+
+p,
+a {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+}
+
+table {
+    border: 1px solid rgb(8, 8, 8);
+}
+
+th {
+    padding: 0.2em;
+    /* color: rgb(218, 216, 216); */
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+td {
+    padding: 0.2em;
+    /* color: rgb(218, 216, 216); */
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+td.right {
+    text-align: right;
+}

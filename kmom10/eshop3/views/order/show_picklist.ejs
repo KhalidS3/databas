@@ -1,0 +1,34 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Plocklista</h1>
+
+    <table>
+        <tr>
+            <th>Produkt Id</th>
+            <th>Antal</th>
+            <th>Hylla nummber</th>
+            <th>Tillräckligt</th>
+        </tr>
+        <% for (const picklist of picklists) { %>
+            <tr>
+                <td>
+                    <%= picklist.produktid %>
+                </td>
+                <td>
+                    <%= picklist.antal %>
+                </td>
+                <td>
+                    <%= picklist.hylla %>
+                </td>
+                <td>
+                    <%= picklist.tillräckligt %>
+                </td>
+            </tr>
+            <% }; %>
+    </table>
+    <p>
+        <a href="/eshop/order/">
+                Tillbaka till ordrar
+        </a>
+    </p>
+    <%- include("../layouts/footer"); %>

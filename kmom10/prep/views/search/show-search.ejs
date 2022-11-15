@@ -1,0 +1,54 @@
+<%- include("../layouts/header", {title: title}); %>
+    <h1>Sök efter specifik spelning:</h1>
+    <form class="form-search" method="get" action="/exam/search">
+        <input type="text" name="search" placeholder="Sök spelning ...">
+
+        <input type="submit" value="search">
+    </form>
+    <br>
+    <h3>Resultat efter sökningen: </h3>
+    <table cellpadding="20">
+        <thead align="left">
+            <tr>
+                <th>Artist_id</th>
+                <th>Artist_namn</th>
+                <th>Speldag_id</th>
+                <th>Speldag_namn</th>
+                <th>Ort</th>
+                <th>Landskod</th>
+                <th>Spelning Datum</th>
+                <th>Klockslag</th>
+            </tr>
+        </thead>
+        <% for (const search of searches) { %>
+            <tr>
+                <td>
+                    <%= search.Artist_id %>
+                </td>
+                <td>
+                    <%= search.Artist_namn %>
+                </td>
+                <td>
+                    <%= search.Speldag_id %>
+                </td>
+                <td>
+                    <%= search.Speldag_namn %>
+                </td>
+                <td>
+                    <%= search.Ort %>
+                </td>
+                <td>
+                    <%= search.Landskod %>
+                </td>
+                <td>
+                    <%= search.Spelning %>
+                </td>
+                <td>
+                    <%= search.Klockslag %>
+                </td>
+            </tr>
+
+            <% } %>
+    </table>
+
+    <%- include("../layouts/footer"); %>

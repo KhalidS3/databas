@@ -1,0 +1,37 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Visa logg</h1>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Tid</th>
+            <th>Beskrivning</th>
+            <th>Produkt</th>
+        </tr>
+        <% for (const log of logs) { %>
+            <tr>
+                <td>
+                    <%= log.loggid %>
+                </td>
+                <td>
+                    <%= log.tid.toLocaleString(); %>
+                </td>
+                <td>
+                    <%= log.beskrivning %>
+                </td>
+                <td>
+                    <%= log.produkt %>
+                </td>
+            </tr>
+            <% }; %>
+    </table>
+    <br>
+    <h3>Search for specific log</h3>
+    <form class="form-search" method="get" action="/eshop/log">
+        <input type="text" name="search" placeholder="Search log...">
+
+        <input type="submit" value="search">
+    </form>
+
+    <%- include("../layouts/footer"); %>

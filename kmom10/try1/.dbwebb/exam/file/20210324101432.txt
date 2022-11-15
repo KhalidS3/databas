@@ -1,0 +1,20 @@
+20210324101432
+.
+total 16
+drwxr-xr-x+ 1 khali khali     0 Mar 24 10:14 .dbwebb
+-rw-r--r--+ 1 khali khali 10871 Mar 24 10:14 INSTRUKTION.md
+-rw-r--r--+ 1 khali khali  3926 Mar 24 10:14 README_FIRST.md
+./.dbwebb
+total 0
+drwxr-xr-x+ 1 khali khali 0 Mar 24 10:14 exam
+./.dbwebb/exam
+total 1
+drwxr-xr-x+ 1 khali khali  0 Mar 24 10:14 file
+-rw-r--r--+ 1 khali khali 36 Mar 24 10:14 id.md
+drwxr-xr-x+ 1 khali khali  0 Mar 24 10:14 receipt
+./.dbwebb/exam/file
+total 1
+-rw-rw-r--+ 1 khali khali 452 Mar 24 10:14 20210324101432.txt
+./.dbwebb/exam/receipt
+total 1
+-rw-r--r--+ 1 khali khali 590 Mar 24 10:14 20210324091430.md

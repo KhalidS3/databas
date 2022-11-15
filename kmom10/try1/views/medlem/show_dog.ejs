@@ -1,0 +1,38 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Hund</h1>
+
+    <p>Detaljer för hund,
+        <%= hund.hund_namn %>.</p>
+
+    <table>
+        <thead align="left">
+            <tr>
+                <th>Id</th>
+                <th>Namn</th>
+                <th>Url</th>
+                <th>Ras_id</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>
+                <%= hund.hund_id %>
+            </td>
+            <td>
+                <%= hund.hund_namn %>
+            </td>
+            <td>
+                <a href="<%= hund.hund_url %>">
+                    <%= hund.hund_url %>
+                </a>
+            </td>
+            <td>
+                <%= hund.ras_id %>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <li><a href="/exam/medlem/">Medlem Info</a></li>
+
+    <%- include("../layouts/footer"); %>

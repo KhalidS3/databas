@@ -1,0 +1,39 @@
+<%- include("header", {title: title}); %>
+
+    <h1>Product</h1>
+
+    <p>The details for specific product,
+        <%= res.produktid %>.</p>
+
+    <table>
+        <thead align="left">
+            <tr>
+                <th>id</th>
+                <th>Pris</th>
+                <th>Namn</th>
+                <th>Bildlank</th>
+                <th>Beskrivning</th>
+            </tr>
+        </thead>
+        <% for (const row of res[0]) { %>
+            <tr>
+                <td>
+                    <%= row.produktid %>
+                </td>
+                <td>
+                    <%= row.pris %>
+                </td>
+                <td>
+                    <%= row.namn %>
+                </td>
+                <td>
+                    <%= row.bildlank %>
+                </td>
+                <td>
+                    <%= row.beskrivning %>
+                </td>
+            </tr>
+            <% }; %>
+    </table>
+
+    <%- include("footer"); %>

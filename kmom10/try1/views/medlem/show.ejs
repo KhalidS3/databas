@@ -1,0 +1,43 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Spelning info:</h1>
+
+    <table cellpadding="20">
+        <thead align="left">
+            <tr>
+                <th>Namn</th>
+                <th>Alias</th>
+                <th>Ort</th>
+                <th>Hund namn</th>
+                <th>Ras namn</th>
+                <th>Godkand</th>
+            </tr>
+        </thead>
+        <% for (const info of infos) { %>
+            <tr>
+                <td>
+                    <%= info.Namn %>
+                </td>
+                <td>
+                    <%= info.Alias %>
+                </td>
+                <td>
+                    <%= info.Ort %>
+                </td>
+                <td>
+                    <a href="/exam/medlem/show/<%= info.Hund_namn %>">
+                        <%= info.Hund_namn %>
+                    </a>
+                </td>
+                <td>
+                    <%= info.Ras_namn %>
+                </td>
+                <td>
+                    <%= info.Godkand %>
+                </td>
+            </tr>
+
+            <% } %>
+    </table>
+
+    <%- include("../layouts/footer"); %>

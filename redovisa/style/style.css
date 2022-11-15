@@ -1,0 +1,88 @@
+/**
+ * Style
+ */
+
+html {
+    /* background-color: grey; */
+    background-image: url("https://images.unsplash.com/photo-1542328689-df6c076c1604?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+}
+
+body {
+    margin: 8px auto;
+    color: #333;
+    max-width: 600px;
+    overflow-y: scroll;
+    border-style: outset;
+    padding: 3em 3em;
+    background-color: black;
+}
+
+nav {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 1px solid #666;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+pre {
+    white-space: pre-wrap;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+article {
+    color: white;
+}
+
+.me {
+    text-align: center;
+}
+
+a {
+    /* RESET */
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    padding: 5px 5px;
+    overflow: hidden;
+    color: #333;
+    vertical-align: bottom;
+    transition: color 0.3s ease-out;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: translateY(calc(100% - 2px));
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(60deg, grey 0%, black 100%);
+    transition: transform 0.25s ease-out;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:hover::before {
+    transform: translateY(0);
+    transition: transform 0.25s ease-out;
+}
+
+.meImg {
+    border-style: outset;
+    border-color: #333;
+}

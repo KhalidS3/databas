@@ -1,0 +1,29 @@
+<%- include("header", {title: title}); %>
+
+    <h1>Category</h1>
+
+    <p>The details for specific category,
+        <%= res.produktid %>.</p>
+
+    <table>
+        <thead align="left">
+            <tr>
+                <th>id</th>
+                <th>Kategori</th>
+            </tr>
+        </thead>
+        <% for (const row of res[0]) { %>
+            <tr>
+                <td>
+                    <%= row.produktid %>
+                </td>
+                <td>
+                    <%= row.kategori %>
+                </td>
+            </tr>
+            <% }; %>
+    </table>
+
+    <br>
+    <li><a href="../category">Back</a></li>
+    <%- include("footer"); %>

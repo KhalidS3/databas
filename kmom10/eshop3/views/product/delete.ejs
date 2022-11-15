@@ -1,0 +1,31 @@
+<%- include("../layouts/header", {title: title}); %>
+    <style>
+        input:read-only {
+            background-color: #D3D3D3;
+        }
+    </style>
+    <br>
+    <form class="label-left" method="post" action="/eshop/product/delete">
+        <fieldset>
+            <legend>Delete product</legend>
+
+            <label for="produktid">Id</label>
+            <input id="produktid" type="text" name="produktid" readonly value="<%= product.produktid %>">
+
+            <label for="pris">Pris</label>
+            <input id="pris" type="number" name="pris" readonly value="<%= product.pris %>">
+
+            <label for="namn">Namn</label>
+            <input id="namn" type="text" name="namn" size="45" readonly value="<%= product.namn %>">
+
+            <label for="bildlank">Bildlank</label>
+            <input id="bildlank" type="text" name="bildlank" size="45" readonly value="<%= product.bildlank %>">
+
+            <label for="beskrivning">Beskrivning</label>
+            <input id="beskrivning" type="text" name="beskrivning" size="85" readonly value="<%= product.beskrivning %>">
+
+            <input type="submit" name="doit" value="Delete">
+        </fieldset>
+    </form>
+
+    <%- include("../layouts/footer"); %>

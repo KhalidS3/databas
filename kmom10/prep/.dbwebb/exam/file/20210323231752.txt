@@ -1,0 +1,1499 @@
+20210323231752
+.
+total 157
+drwxr-xr-x+ 1 khali khali     0 Mar 23 19:21 .dbwebb
+-rwxrwxrwx+ 1 khali khali  1100 Mar 23 23:06 cli.js
+drwxrwxr-x+ 1 khali khali     0 Mar 23 19:36 config
+-rwxrwxrwx+ 1 khali khali  1342 Mar 23 23:11 index.js
+-rw-r--r--+ 1 khali khali  6375 Mar 23 19:31 INSTRUKTION_2018-03-21_upplevelse.md
+-rw-r--r--+ 1 khali khali  7468 Mar 23 19:31 INSTRUKTION_2018-05-31_det-stora-slaget-om-tartan.md
+-rw-r--r--+ 1 khali khali  7764 Mar 23 19:31 INSTRUKTION_2018-08-31_en-japansk-smakresa.md
+-rw-r--r--+ 1 khali khali  9668 Mar 23 19:31 INSTRUKTION_2019-03-28_Sakerhetspolisen-SAPO.md
+-rw-r--r--+ 1 khali khali 10089 Mar 23 19:31 INSTRUKTION_2019-05-30_Biblioteket.md
+-rw-r--r--+ 1 khali khali  9428 Mar 23 19:31 INSTRUKTION_2019-08-30_pingis.md
+-rw-r--r--+ 1 khali khali 10501 Mar 23 19:31 INSTRUKTION_2020-03-26_rock.md
+-rw-r--r--+ 1 khali khali 10713 Mar 23 19:31 INSTRUKTION_2020-05-29_vapen.md
+drwxrwxr-x+ 1 khali khali     0 Mar 23 19:36 middleware
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:33 node_modules
+-rwxrwxrwx+ 1 khali khali   467 Mar 23 19:33 package.json
+-rwxrwxrwx+ 1 khali khali 28054 Mar 23 19:33 package-lock.json
+drwxrwxrwx+ 1 khali khali     0 Mar 23 20:35 public
+-rw-r--r--+ 1 khali khali  3926 Mar 23 19:31 README_FIRST.md
+drwxrwxr-x+ 1 khali khali     0 Mar 23 22:12 route
+drwxrwxr-x+ 1 khali khali     0 Mar 23 19:35 sql
+drwxrwxr-x+ 1 khali khali     0 Mar 23 22:13 src
+drwxrwxr-x+ 1 khali khali     0 Mar 23 22:12 views
+./.dbwebb
+total 0
+drwxr-xr-x+ 1 khali khali 0 Mar 23 19:31 exam
+./.dbwebb/exam
+total 9
+drwxr-xr-x+ 1 khali khali  0 Mar 23 23:17 file
+-rw-r--r--+ 1 khali khali 36 Mar 23 19:31 id.md
+drwxr-xr-x+ 1 khali khali  0 Mar 23 23:17 receipt
+./.dbwebb/exam/file
+total 352
+-rw-rw-r--+ 1 khali khali  1233 Mar 23 19:21 20210323192111.txt
+-rw-rw-r--+ 1 khali khali  1357 Mar 23 19:28 20210323192821.txt
+-rw-rw-r--+ 1 khali khali  1482 Mar 23 19:31 20210323193122.txt
+-rw-rw-r--+ 1 khali khali 64987 Mar 23 19:47 20210323194719.txt
+-rw-rw-r--+ 1 khali khali 66376 Mar 23 21:35 20210323213450.txt
+-rw-rw-r--+ 1 khali khali 66556 Mar 23 21:59 20210323215859.txt
+-rw-rw-r--+ 1 khali khali 66923 Mar 23 23:08 20210323230744.txt
+-rw-rw-r--+ 1 khali khali 67103 Mar 23 23:17 20210323231623.txt
+-rw-rw-r--+ 1 khali khali  1716 Mar 23 23:17 20210323231752.txt
+./.dbwebb/exam/receipt
+total 30
+-rw-r--r--+ 1 khali khali 596 Mar 23 19:21 20210323182109.md
+-rw-r--r--+ 1 khali khali 688 Mar 23 19:31 20210323183120.md
+-rw-rw-r--+ 1 khali khali 596 Mar 23 19:28 20210323192818.md
+-rw-rw-r--+ 1 khali khali 688 Mar 23 19:47 20210323194716.md
+-rw-rw-r--+ 1 khali khali 688 Mar 23 21:34 20210323213447.md
+-rw-rw-r--+ 1 khali khali 688 Mar 23 21:58 20210323215854.md
+-rw-r--r--+ 1 khali khali 780 Mar 23 23:16 20210323221622.md
+-rw-rw-r--+ 1 khali khali 688 Mar 23 23:07 20210323230739.md
+-rw-rw-r--+ 1 khali khali 780 Mar 23 23:17 20210323231747.md
+./config
+total 0
+drwxrwxr-x+ 1 khali khali 0 Mar 23 21:09 db
+./config/db
+total 1
+-rwxrwxrwx+ 1 khali khali 128 Mar 23 21:09 exam.json
+./middleware
+total 1
+-rwxrwxrwx+ 1 khali khali 379 Mar 11 20:12 index.js
+./node_modules/.bin
+total 12
+-rwxrwxrwx+ 1 khali khali 314 Mar 23 19:32 ejs
+-rwxrwxrwx+ 1 khali khali 274 Mar 23 19:32 ejs.cmd
+-rwxrwxrwx+ 1 khali khali 484 Mar 23 19:32 ejs.ps1
+-rwxrwxrwx+ 1 khali khali 316 Mar 23 19:32 jake
+-rwxrwxrwx+ 1 khali khali 275 Mar 23 19:32 jake.cmd
+-rwxrwxrwx+ 1 khali khali 486 Mar 23 19:32 jake.ps1
+-rwxrwxrwx+ 1 khali khali 308 Mar 23 19:32 mime
+-rwxrwxrwx+ 1 khali khali 271 Mar 23 19:32 mime.cmd
+-rwxrwxrwx+ 1 khali khali 478 Mar 23 19:32 mime.ps1
+-rwxrwxrwx+ 1 khali khali 312 Mar 23 19:32 vows
+-rwxrwxrwx+ 1 khali khali 273 Mar 23 19:32 vows.cmd
+-rwxrwxrwx+ 1 khali khali 482 Mar 23 19:32 vows.ps1
+./node_modules/@types
+total 24
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 bluebird
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 mysql
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 node
+./node_modules/@types/bluebird
+total 65
+-rwxrwxrwx+ 1 khali khali 54433 Oct 28 19:21 index.d.ts
+-rwxrwxrwx+ 1 khali khali  1141 Oct 28 19:21 LICENSE
+-rwxrwxrwx+ 1 khali khali  1685 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali   499 Oct 28 19:21 README.md
+./node_modules/@types/mysql
+total 33
+-rwxrwxrwx+ 1 khali khali 22312 Mar  2 08:09 index.d.ts
+-rwxrwxrwx+ 1 khali khali  1141 Mar  2 08:09 LICENSE
+-rwxrwxrwx+ 1 khali khali  2031 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali   724 Mar  2 08:09 README.md
+./node_modules/@types/node
+total 786
+-rwxrwxrwx+ 1 khali khali   5689 Mar 15 19:54 assert.d.ts
+-rwxrwxrwx+ 1 khali khali   9836 Mar 15 19:54 async_hooks.d.ts
+-rwxrwxrwx+ 1 khali khali    905 Mar 15 19:54 base.d.ts
+-rwxrwxrwx+ 1 khali khali    770 Mar 15 19:54 buffer.d.ts
+-rwxrwxrwx+ 1 khali khali  25296 Mar 15 19:54 child_process.d.ts
+-rwxrwxrwx+ 1 khali khali  16197 Mar 15 19:54 cluster.d.ts
+-rwxrwxrwx+ 1 khali khali   5985 Mar 15 19:54 console.d.ts
+-rwxrwxrwx+ 1 khali khali    698 Mar 15 19:54 constants.d.ts
+-rwxrwxrwx+ 1 khali khali  46401 Mar 15 19:54 crypto.d.ts
+-rwxrwxrwx+ 1 khali khali   7270 Mar 15 19:54 dgram.d.ts
+-rwxrwxrwx+ 1 khali khali  16536 Mar 15 19:54 dns.d.ts
+-rwxrwxrwx+ 1 khali khali    784 Mar 15 19:54 domain.d.ts
+-rwxrwxrwx+ 1 khali khali   3478 Mar 15 19:54 events.d.ts
+drwxrwxrwx+ 1 khali khali      0 Mar 23 19:32 fs
+-rwxrwxrwx+ 1 khali khali 120301 Mar 15 19:54 fs.d.ts
+-rwxrwxrwx+ 1 khali khali  23691 Mar 15 19:54 globals.d.ts
+-rwxrwxrwx+ 1 khali khali     55 Mar 15 19:54 globals.global.d.ts
+-rwxrwxrwx+ 1 khali khali  18944 Mar 15 19:54 http.d.ts
+-rwxrwxrwx+ 1 khali khali  56734 Mar 15 19:54 http2.d.ts
+-rwxrwxrwx+ 1 khali khali   1721 Mar 15 19:54 https.d.ts
+-rwxrwxrwx+ 1 khali khali   3634 Mar 15 19:54 index.d.ts
+-rwxrwxrwx+ 1 khali khali 122095 Mar 15 19:54 inspector.d.ts
+-rwxrwxrwx+ 1 khali khali   1141 Mar 15 19:54 LICENSE
+-rwxrwxrwx+ 1 khali khali   1742 Mar 15 19:54 module.d.ts
+-rwxrwxrwx+ 1 khali khali  13259 Mar 15 19:54 net.d.ts
+-rwxrwxrwx+ 1 khali khali   8232 Mar 15 19:54 os.d.ts
+-rwxrwxrwx+ 1 khali khali   5328 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali   6395 Mar 15 19:54 path.d.ts
+-rwxrwxrwx+ 1 khali khali  10691 Mar 15 19:54 perf_hooks.d.ts
+-rwxrwxrwx+ 1 khali khali  20394 Mar 15 19:54 process.d.ts
+-rwxrwxrwx+ 1 khali khali   3847 Mar 15 19:54 punycode.d.ts
+-rwxrwxrwx+ 1 khali khali   1118 Mar 15 19:54 querystring.d.ts
+-rwxrwxrwx+ 1 khali khali   7364 Mar 15 19:54 readline.d.ts
+-rwxrwxrwx+ 1 khali khali   2627 Mar 15 19:54 README.md
+-rwxrwxrwx+ 1 khali khali  18191 Mar 15 19:54 repl.d.ts
+-rwxrwxrwx+ 1 khali khali  19473 Mar 15 19:54 stream.d.ts
+-rwxrwxrwx+ 1 khali khali    271 Mar 15 19:54 string_decoder.d.ts
+-rwxrwxrwx+ 1 khali khali    890 Mar 15 19:54 timers.d.ts
+-rwxrwxrwx+ 1 khali khali  37905 Mar 15 19:54 tls.d.ts
+-rwxrwxrwx+ 1 khali khali   2187 Mar 15 19:54 trace_events.d.ts
+drwxrwxrwx+ 1 khali khali      0 Mar 23 19:32 ts3.6
+-rwxrwxrwx+ 1 khali khali   2503 Mar 15 19:54 tty.d.ts
+-rwxrwxrwx+ 1 khali khali   4270 Mar 15 19:54 url.d.ts
+-rwxrwxrwx+ 1 khali khali  12811 Mar 15 19:54 util.d.ts
+-rwxrwxrwx+ 1 khali khali   6828 Mar 15 19:54 v8.d.ts
+-rwxrwxrwx+ 1 khali khali   6059 Mar 15 19:54 vm.d.ts
+-rwxrwxrwx+ 1 khali khali   3437 Mar 15 19:54 wasi.d.ts
+-rwxrwxrwx+ 1 khali khali  11551 Mar 15 19:54 worker_threads.d.ts
+-rwxrwxrwx+ 1 khali khali  14390 Mar 15 19:54 zlib.d.ts
+./node_modules/@types/node/fs
+total 32
+-rwxrwxrwx+ 1 khali khali 30700 Mar 15 19:54 promises.d.ts
+./node_modules/@types/node/ts3.6
+total 13
+-rwxrwxrwx+ 1 khali khali 4684 Mar 15 19:54 assert.d.ts
+-rwxrwxrwx+ 1 khali khali 2620 Mar 15 19:54 base.d.ts
+-rwxrwxrwx+ 1 khali khali  294 Mar 15 19:54 index.d.ts
+./node_modules/accepts
+total 28
+-rwxrwxrwx+ 1 khali khali 4972 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 5252 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1167 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2271 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 4081 Oct 26  1985 README.md
+./node_modules/ansi-styles
+total 16
+-rwxrwxrwx+ 1 khali khali 3574 Mar  2  2018 index.js
+-rwxrwxrwx+ 1 khali khali 1109 Jun  1  2017 license
+-rwxrwxrwx+ 1 khali khali 2109 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 3711 Feb 11  2018 readme.md
+./node_modules/array-flatten
+total 16
+-rwxrwxrwx+ 1 khali khali 1195 Jul  9  2015 array-flatten.js
+-rwxrwxrwx+ 1 khali khali 1103 Mar 15  2014 LICENSE
+-rwxrwxrwx+ 1 khali khali 1683 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1245 May  9  2015 README.md
+./node_modules/async
+total 66
+-rwxrwxrwx+ 1 khali khali    60 May 19  2015 .travis.yml
+-rwxrwxrwx+ 1 khali khali   674 May 19  2015 bower.json
+-rwxrwxrwx+ 1 khali khali   297 May 19  2015 component.json
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali  1063 May 19  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali  1807 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 52082 May 19  2015 README.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 support
+./node_modules/async/lib
+total 36
+-rwxrwxrwx+ 1 khali khali 34652 May 19  2015 async.js
+./node_modules/async/support
+total 4
+-rwxrwxrwx+ 1 khali khali 1553 May 19  2015 sync-package-managers.js
+./node_modules/balanced-match
+total 17
+-rwxrwxrwx+ 1 khali khali   48 Jun 12  2017 .npmignore
+-rwxrwxrwx+ 1 khali khali 1174 Jun 12  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1096 Jun 12  2017 LICENSE.md
+-rwxrwxrwx+ 1 khali khali 1989 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 3308 Jun 12  2017 README.md
+./node_modules/bignumber.js
+total 324
+-rwxrwxrwx+ 1 khali khali 67076 Oct 26  1985 bignumber.d.ts
+-rwxrwxrwx+ 1 khali khali 89253 Oct 26  1985 bignumber.js
+-rwxrwxrwx+ 1 khali khali 18598 Oct 26  1985 bignumber.min.js
+-rwxrwxrwx+ 1 khali khali 35516 Oct 26  1985 bignumber.min.js.map
+-rwxrwxrwx+ 1 khali khali 84325 Oct 26  1985 bignumber.mjs
+-rwxrwxrwx+ 1 khali khali  7851 Oct 26  1985 CHANGELOG.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 doc
+-rwxrwxrwx+ 1 khali khali  1104 Oct 26  1985 LICENCE
+-rwxrwxrwx+ 1 khali khali  1843 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 10289 Oct 26  1985 README.md
+./node_modules/bignumber.js/doc
+total 88
+-rwxrwxrwx+ 1 khali khali 86676 Oct 26  1985 API.html
+./node_modules/bluebird
+total 13
+-rwxrwxrwx+ 1 khali khali   87 Oct 26  1985 changelog.md
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 js
+-rwxrwxrwx+ 1 khali khali 1086 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 3019 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 3058 Oct 26  1985 README.md
+./node_modules/bluebird/js
+total 12
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 browser
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 release
+./node_modules/bluebird/js/browser
+total 444
+-rwxrwxrwx+ 1 khali khali 123379 Oct 26  1985 bluebird.core.js
+-rwxrwxrwx+ 1 khali khali  57355 Oct 26  1985 bluebird.core.min.js
+-rwxrwxrwx+ 1 khali khali 183390 Oct 26  1985 bluebird.js
+-rwxrwxrwx+ 1 khali khali  81530 Oct 26  1985 bluebird.min.js
+./node_modules/bluebird/js/release
+total 239
+-rwxrwxrwx+ 1 khali khali   421 Oct 26  1985 any.js
+-rwxrwxrwx+ 1 khali khali  1653 Oct 26  1985 assert.js
+-rwxrwxrwx+ 1 khali khali  2876 Oct 26  1985 async.js
+-rwxrwxrwx+ 1 khali khali  1970 Oct 26  1985 bind.js
+-rwxrwxrwx+ 1 khali khali   291 Oct 26  1985 bluebird.js
+-rwxrwxrwx+ 1 khali khali  4355 Oct 26  1985 call_get.js
+-rwxrwxrwx+ 1 khali khali  3707 Oct 26  1985 cancel.js
+-rwxrwxrwx+ 1 khali khali  1426 Oct 26  1985 catch_filter.js
+-rwxrwxrwx+ 1 khali khali  2382 Oct 26  1985 context.js
+-rwxrwxrwx+ 1 khali khali 32170 Oct 26  1985 debuggability.js
+-rwxrwxrwx+ 1 khali khali  1395 Oct 26  1985 direct_resolve.js
+-rwxrwxrwx+ 1 khali khali   789 Oct 26  1985 each.js
+-rwxrwxrwx+ 1 khali khali  3717 Oct 26  1985 errors.js
+-rwxrwxrwx+ 1 khali khali  1978 Oct 26  1985 es5.js
+-rwxrwxrwx+ 1 khali khali   314 Oct 26  1985 filter.js
+-rwxrwxrwx+ 1 khali khali  4613 Oct 26  1985 finally.js
+-rwxrwxrwx+ 1 khali khali  7761 Oct 26  1985 generators.js
+-rwxrwxrwx+ 1 khali khali  8136 Oct 26  1985 join.js
+-rwxrwxrwx+ 1 khali khali  5602 Oct 26  1985 map.js
+-rwxrwxrwx+ 1 khali khali  1768 Oct 26  1985 method.js
+-rwxrwxrwx+ 1 khali khali  1560 Oct 26  1985 nodeback.js
+-rwxrwxrwx+ 1 khali khali  1647 Oct 26  1985 nodeify.js
+-rwxrwxrwx+ 1 khali khali 26986 Oct 26  1985 promise.js
+-rwxrwxrwx+ 1 khali khali  5252 Oct 26  1985 promise_array.js
+-rwxrwxrwx+ 1 khali khali 12182 Oct 26  1985 promisify.js
+-rwxrwxrwx+ 1 khali khali  3117 Oct 26  1985 props.js
+-rwxrwxrwx+ 1 khali khali  1873 Oct 26  1985 queue.js
+-rwxrwxrwx+ 1 khali khali  1250 Oct 26  1985 race.js
+-rwxrwxrwx+ 1 khali khali  5372 Oct 26  1985 reduce.js
+-rwxrwxrwx+ 1 khali khali  2148 Oct 26  1985 schedule.js
+-rwxrwxrwx+ 1 khali khali  1366 Oct 26  1985 settle.js
+-rwxrwxrwx+ 1 khali khali  3959 Oct 26  1985 some.js
+-rwxrwxrwx+ 1 khali khali  2813 Oct 26  1985 synchronous_inspection.js
+-rwxrwxrwx+ 1 khali khali  2131 Oct 26  1985 thenables.js
+-rwxrwxrwx+ 1 khali khali  2395 Oct 26  1985 timers.js
+-rwxrwxrwx+ 1 khali khali  7525 Oct 26  1985 using.js
+-rwxrwxrwx+ 1 khali khali 11379 Oct 26  1985 util.js
+./node_modules/body-parser
+total 48
+-rwxrwxrwx+ 1 khali khali 15113 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali  2656 Oct 26  1985 index.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali  1172 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  2696 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 17100 Oct 26  1985 README.md
+./node_modules/body-parser/lib
+total 4
+-rwxrwxrwx+ 1 khali khali 3894 Oct 26  1985 read.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 types
+./node_modules/body-parser/lib/types
+total 24
+-rwxrwxrwx+ 1 khali khali 4918 Oct 26  1985 json.js
+-rwxrwxrwx+ 1 khali khali 1884 Oct 26  1985 raw.js
+-rwxrwxrwx+ 1 khali khali 2285 Oct 26  1985 text.js
+-rwxrwxrwx+ 1 khali khali 5797 Oct 26  1985 urlencoded.js
+./node_modules/brace-expansion
+total 20
+-rwxrwxrwx+ 1 khali khali 4792 Feb  9  2018 index.js
+-rwxrwxrwx+ 1 khali khali 1096 Feb  9  2018 LICENSE
+-rwxrwxrwx+ 1 khali khali 2091 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 4058 Feb 10  2018 README.md
+./node_modules/bytes
+total 20
+-rwxrwxrwx+ 1 khali khali 1581 Oct 26  1985 History.md
+-rwxrwxrwx+ 1 khali khali 3469 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1153 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2047 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 3890 Oct 26  1985 Readme.md
+./node_modules/chalk
+total 36
+-rwxrwxrwx+ 1 khali khali  6439 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  1921 Oct 26  1985 index.js.flow
+-rwxrwxrwx+ 1 khali khali  1109 Oct 26  1985 license
+-rwxrwxrwx+ 1 khali khali  2293 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 10774 Oct 26  1985 readme.md
+-rwxrwxrwx+ 1 khali khali  3133 Oct 26  1985 templates.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 types
+./node_modules/chalk/types
+total 4
+-rwxrwxrwx+ 1 khali khali 2353 Oct 26  1985 index.d.ts
+./node_modules/clone
+total 22
+-rwxrwxrwx+ 1 khali khali   45 Mar 21  2018 .npmignore
+-rwxrwxrwx+ 1 khali khali  411 Jan  6  2016 clone.iml
+-rwxrwxrwx+ 1 khali khali 4389 Mar 21  2018 clone.js
+-rwxrwxrwx+ 1 khali khali 1070 Jan 14  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali 3177 Mar 23 19:33 package.json
+-rwxrwxrwx+ 1 khali khali 3585 Mar 21  2018 README.md
+./node_modules/color-convert
+total 44
+-rwxrwxrwx+ 1 khali khali  1417 Oct 26  1985 CHANGELOG.md
+-rwxrwxrwx+ 1 khali khali 16850 Oct 26  1985 conversions.js
+-rwxrwxrwx+ 1 khali khali  1725 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  1087 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  1914 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  2853 Oct 26  1985 README.md
+-rwxrwxrwx+ 1 khali khali  2227 Oct 26  1985 route.js
+./node_modules/color-name
+total 26
+-rwxrwxrwx+ 1 khali khali 1160 Sep  3  2016 .eslintrc.json
+-rwxrwxrwx+ 1 khali khali 1388 Jun 28  2015 .npmignore
+-rwxrwxrwx+ 1 khali khali 4617 Jul 16  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1085 Dec 24  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali 1386 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  384 Mar 14  2017 README.md
+-rwxrwxrwx+ 1 khali khali  171 Jul 16  2017 test.js
+./node_modules/concat-map
+total 14
+-rwxrwxrwx+ 1 khali khali   43 Jun  8  2012 .travis.yml
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 example
+-rwxrwxrwx+ 1 khali khali  345 Dec  8  2012 index.js
+-rwxrwxrwx+ 1 khali khali 1073 Jan 30  2014 LICENSE
+-rwxrwxrwx+ 1 khali khali 1883 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1165 Nov 28  2012 README.markdown
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 test
+./node_modules/concat-map/example
+total 1
+-rwxrwxrwx+ 1 khali khali 171 Jun  8  2012 map.js
+./node_modules/concat-map/test
+total 4
+-rwxrwxrwx+ 1 khali khali 1075 Nov 28  2012 map.js
+./node_modules/console.table
+total 25
+-rwxrwxrwx+ 1 khali khali  594 Jan 16  2018 bower.json
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:33 dist
+-rwxrwxrwx+ 1 khali khali 4437 Jan 16  2018 index.js
+-rwxrwxrwx+ 1 khali khali 1079 Jan 16  2018 LICENSE-MIT
+-rwxrwxrwx+ 1 khali khali 3131 Mar 23 19:33 package.json
+-rwxrwxrwx+ 1 khali khali 4457 Jan 16  2018 README.md
+./node_modules/console.table/dist
+total 12
+-rwxrwxrwx+ 1 khali khali 4437 Jan 16  2018 console.table.js
+-rwxrwxrwx+ 1 khali khali 1841 Jan 16  2018 console.table.min.js
+./node_modules/content-disposition
+total 32
+-rwxrwxrwx+ 1 khali khali   952 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 10594 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  1094 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  2406 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  5237 Oct 26  1985 README.md
+./node_modules/content-type
+total 21
+-rwxrwxrwx+ 1 khali khali  436 Sep 11  2017 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 4809 Sep 11  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1089 Sep 11  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali 2188 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2796 Sep 11  2017 README.md
+./node_modules/cookie
+total 28
+-rwxrwxrwx+ 1 khali khali 2698 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 4037 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1175 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2226 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 8809 Oct 26  1985 README.md
+./node_modules/cookie-signature
+total 14
+-rwxrwxrwx+ 1 khali khali   29 Jan 28  2014 .npmignore
+-rwxrwxrwx+ 1 khali khali  695 Feb  3  2015 History.md
+-rwxrwxrwx+ 1 khali khali 1230 Feb  3  2015 index.js
+-rwxrwxrwx+ 1 khali khali 1577 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1490 Jun 19  2014 Readme.md
+./node_modules/core-util-is
+total 29
+-rwxrwxrwx+ 1 khali khali 16278 Nov 20  2015 float.patch
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali  1077 Nov 20  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali  1576 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali    67 Nov 20  2015 README.md
+-rwxrwxrwx+ 1 khali khali  2101 Nov 20  2015 test.js
+./node_modules/core-util-is/lib
+total 4
+-rwxrwxrwx+ 1 khali khali 3021 Nov 20  2015 util.js
+./node_modules/debug
+total 54
+-rwxrwxrwx+ 1 khali khali    46 Jun 15  2017 .coveralls.yml
+-rwxrwxrwx+ 1 khali khali   180 Sep 22  2017 .eslintrc
+-rwxrwxrwx+ 1 khali khali    72 Jun 15  2017 .npmignore
+-rwxrwxrwx+ 1 khali khali   140 Sep 22  2017 .travis.yml
+-rwxrwxrwx+ 1 khali khali 11707 Sep 22  2017 CHANGELOG.md
+-rwxrwxrwx+ 1 khali khali   321 Sep 22  2017 component.json
+-rwxrwxrwx+ 1 khali khali  1736 Jun 15  2017 karma.conf.js
+-rwxrwxrwx+ 1 khali khali  1107 Jun 15  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali  1059 Sep 22  2017 Makefile
+-rwxrwxrwx+ 1 khali khali    40 Jun 15  2017 node.js
+-rwxrwxrwx+ 1 khali khali  2271 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 17918 Sep 22  2017 README.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 src
+./node_modules/debug/src
+total 26
+-rwxrwxrwx+ 1 khali khali 4734 Sep 22  2017 browser.js
+-rwxrwxrwx+ 1 khali khali 4394 Sep 22  2017 debug.js
+-rwxrwxrwx+ 1 khali khali  263 Sep 22  2017 index.js
+-rwxrwxrwx+ 1 khali khali  373 Sep 21  2017 inspector-log.js
+-rwxrwxrwx+ 1 khali khali 6015 Sep 22  2017 node.js
+./node_modules/defaults
+total 18
+-rwxrwxrwx+ 1 khali khali   13 Oct  3  2015 .npmignore
+-rwxrwxrwx+ 1 khali khali  277 Oct  3  2015 index.js
+-rwxrwxrwx+ 1 khali khali 1079 Oct  3  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali 1414 Mar 23 19:33 package.json
+-rwxrwxrwx+ 1 khali khali  827 Oct  3  2015 README.md
+-rwxrwxrwx+ 1 khali khali 1050 Oct  3  2015 test.js
+./node_modules/depd
+total 36
+-rwxrwxrwx+ 1 khali khali  2060 Jan 12  2018 History.md
+-rwxrwxrwx+ 1 khali khali 10669 Jan 12  2018 index.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali  1094 Jan 12  2018 LICENSE
+-rwxrwxrwx+ 1 khali khali  2158 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 10025 Jan 12  2018 Readme.md
+./node_modules/depd/lib
+total 0
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 browser
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 compat
+./node_modules/depd/lib/browser
+total 4
+-rwxrwxrwx+ 1 khali khali 1512 Jul 27  2017 index.js
+./node_modules/depd/lib/compat
+total 9
+-rwxrwxrwx+ 1 khali khali 2229 Jan 12  2018 callsite-tostring.js
+-rwxrwxrwx+ 1 khali khali  338 Jan 12  2018 event-listener-count.js
+-rwxrwxrwx+ 1 khali khali 1421 Jan 12  2018 index.js
+./node_modules/destroy
+total 16
+-rwxrwxrwx+ 1 khali khali 1043 Jan 13  2016 index.js
+-rwxrwxrwx+ 1 khali khali 1099 Aug 14  2014 LICENSE
+-rwxrwxrwx+ 1 khali khali 1809 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2185 Jan 13  2016 README.md
+./node_modules/diff
+total 49
+-rwxrwxrwx+ 1 khali khali  1177 Oct 26  1985 CONTRIBUTING.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 dist
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali  1572 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  2940 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  8791 Oct 26  1985 README.md
+-rwxrwxrwx+ 1 khali khali 16566 Oct 26  1985 release-notes.md
+-rwxrwxrwx+ 1 khali khali    67 Oct 26  1985 runtime.js
+./node_modules/diff/dist
+total 68
+-rwxrwxrwx+ 1 khali khali 48402 Oct 26  1985 diff.js
+-rwxrwxrwx+ 1 khali khali 16978 Oct 26  1985 diff.min.js
+./node_modules/diff/lib
+total 56
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 convert
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 diff
+-rwxrwxrwx+ 1 khali khali 43492 Oct 26  1985 index.es6.js
+-rwxrwxrwx+ 1 khali khali  7231 Oct 26  1985 index.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 patch
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 util
+./node_modules/diff/lib/convert
+total 8
+-rwxrwxrwx+ 1 khali khali 2255 Oct 26  1985 dmp.js
+-rwxrwxrwx+ 1 khali khali 3359 Oct 26  1985 xml.js
+./node_modules/diff/lib/diff
+total 84
+-rwxrwxrwx+ 1 khali khali  2287 Oct 26  1985 array.js
+-rwxrwxrwx+ 1 khali khali 30920 Oct 26  1985 base.js
+-rwxrwxrwx+ 1 khali khali  1658 Oct 26  1985 character.js
+-rwxrwxrwx+ 1 khali khali  1949 Oct 26  1985 css.js
+-rwxrwxrwx+ 1 khali khali 12890 Oct 26  1985 json.js
+-rwxrwxrwx+ 1 khali khali  5673 Oct 26  1985 line.js
+-rwxrwxrwx+ 1 khali khali  2073 Oct 26  1985 sentence.js
+-rwxrwxrwx+ 1 khali khali  8525 Oct 26  1985 word.js
+./node_modules/diff/lib/patch
+total 116
+-rwxrwxrwx+ 1 khali khali 20185 Oct 26  1985 apply.js
+-rwxrwxrwx+ 1 khali khali 21307 Oct 26  1985 create.js
+-rwxrwxrwx+ 1 khali khali 50414 Oct 26  1985 merge.js
+-rwxrwxrwx+ 1 khali khali 16590 Oct 26  1985 parse.js
+./node_modules/diff/lib/util
+total 16
+-rwxrwxrwx+ 1 khali khali 2026 Oct 26  1985 array.js
+-rwxrwxrwx+ 1 khali khali 4638 Oct 26  1985 distance-iterator.js
+-rwxrwxrwx+ 1 khali khali 1752 Oct 26  1985 params.js
+./node_modules/easy-table
+total 29
+-rwxrwxrwx+ 1 khali khali   27 Apr  6  2017 .npmignore
+-rwxrwxrwx+ 1 khali khali 1519 Apr  6  2017 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 1553 Mar 23 19:33 package.json
+-rwxrwxrwx+ 1 khali khali 5723 Apr  6  2017 README.md
+-rwxrwxrwx+ 1 khali khali 9480 Apr  6  2017 table.js
+./node_modules/ee-first
+total 16
+-rwxrwxrwx+ 1 khali khali 1684 May 25  2015 index.js
+-rwxrwxrwx+ 1 khali khali 1099 Aug 15  2014 LICENSE
+-rwxrwxrwx+ 1 khali khali 1818 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2617 May 25  2015 README.md
+./node_modules/ejs
+total 112
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 bin
+-rwxrwxrwx+ 1 khali khali 47134 Feb  6 21:28 ejs.js
+-rwxrwxrwx+ 1 khali khali 22607 Feb  6 21:28 ejs.min.js
+-rwxrwxrwx+ 1 khali khali  2296 Feb  6 21:28 jakefile.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 11358 Feb  6 21:28 LICENSE
+-rwxrwxrwx+ 1 khali khali  1704 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 12843 Feb  6 21:28 README.md
+-rwxrwxrwx+ 1 khali khali  1677 Feb  6 21:28 usage.txt
+./node_modules/ejs/bin
+total 8
+-rwxrwxrwx+ 1 khali khali 4702 Feb  6 21:28 cli.js
+./node_modules/ejs/lib
+total 36
+-rwxrwxrwx+ 1 khali khali 26680 Feb  6 21:28 ejs.js
+-rwxrwxrwx+ 1 khali khali  4165 Feb  6 21:28 utils.js
+./node_modules/encodeurl
+total 17
+-rwxrwxrwx+ 1 khali khali  238 Jan 22  2018 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 1586 Jan 22  2018 index.js
+-rwxrwxrwx+ 1 khali khali 1089 Jan 22  2018 LICENSE
+-rwxrwxrwx+ 1 khali khali 2155 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 3855 Jan 22  2018 README.md
+./node_modules/escape-html
+total 13
+-rwxrwxrwx+ 1 khali khali 1362 Sep  1  2015 index.js
+-rwxrwxrwx+ 1 khali khali 1157 Sep  1  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali 1484 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  707 Sep  1  2015 Readme.md
+./node_modules/escape-string-regexp
+total 10
+-rwxrwxrwx+ 1 khali khali  226 Feb 21  2016 index.js
+-rwxrwxrwx+ 1 khali khali 1119 Jun 24  2014 license
+-rwxrwxrwx+ 1 khali khali 1991 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  552 Feb 21  2016 readme.md
+./node_modules/etag
+total 24
+-rwxrwxrwx+ 1 khali khali 1732 Sep 13  2017 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 2479 Sep 13  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1094 Feb 19  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali 2307 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 4198 Sep 13  2017 README.md
+./node_modules/express
+total 129
+-rwxrwxrwx+ 1 khali khali 109589 Oct 26  1985 History.md
+-rwxrwxrwx+ 1 khali khali    224 Oct 26  1985 index.js
+drwxrwxrwx+ 1 khali khali      0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali   1249 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali   4020 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali   4607 Oct 26  1985 Readme.md
+./node_modules/express/lib
+total 76
+-rwxrwxrwx+ 1 khali khali 14270 Oct 26  1985 application.js
+-rwxrwxrwx+ 1 khali khali  2409 Oct 26  1985 express.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 middleware
+-rwxrwxrwx+ 1 khali khali 12504 Oct 26  1985 request.js
+-rwxrwxrwx+ 1 khali khali 27124 Oct 26  1985 response.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 router
+-rwxrwxrwx+ 1 khali khali  5972 Oct 26  1985 utils.js
+-rwxrwxrwx+ 1 khali khali  3326 Oct 26  1985 view.js
+./node_modules/express/lib/middleware
+total 8
+-rwxrwxrwx+ 1 khali khali 853 Oct 26  1985 init.js
+-rwxrwxrwx+ 1 khali khali 885 Oct 26  1985 query.js
+./node_modules/express/lib/router
+total 28
+-rwxrwxrwx+ 1 khali khali 14883 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  3296 Oct 26  1985 layer.js
+-rwxrwxrwx+ 1 khali khali  4149 Oct 26  1985 route.js
+./node_modules/express-session
+total 76
+-rwxrwxrwx+ 1 khali khali 10122 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 16079 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  1205 Oct 26  1985 LICENSE
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 node_modules
+-rwxrwxrwx+ 1 khali khali  2504 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 38003 Oct 26  1985 README.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 session
+./node_modules/express-session/node_modules
+total 8
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 depd
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 safe-buffer
+./node_modules/express-session/node_modules/depd
+total 36
+-rwxrwxrwx+ 1 khali khali  2256 Oct 26  1985 History.md
+-rwxrwxrwx+ 1 khali khali 10932 Oct 26  1985 index.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali  1094 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  2395 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  9988 Oct 26  1985 Readme.md
+./node_modules/express-session/node_modules/depd/lib
+total 0
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 browser
+./node_modules/express-session/node_modules/depd/lib/browser
+total 4
+-rwxrwxrwx+ 1 khali khali 1512 Oct 26  1985 index.js
+./node_modules/express-session/node_modules/safe-buffer
+total 44
+-rwxrwxrwx+ 1 khali khali  8738 Oct 26  1985 index.d.ts
+-rwxrwxrwx+ 1 khali khali  1585 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  1081 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  1663 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 19737 Oct 26  1985 README.md
+./node_modules/express-session/session
+total 16
+-rwxrwxrwx+ 1 khali khali 2593 Oct 26  1985 cookie.js
+-rwxrwxrwx+ 1 khali khali 3553 Oct 26  1985 memory.js
+-rwxrwxrwx+ 1 khali khali 3032 Oct 26  1985 session.js
+-rwxrwxrwx+ 1 khali khali 1895 Oct 26  1985 store.js
+./node_modules/eyes
+total 13
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 1053 Dec  9  2011 LICENSE
+-rwxrwxrwx+ 1 khali khali   46 Dec  9  2011 Makefile
+-rwxrwxrwx+ 1 khali khali 1349 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2325 Aug 24  2012 README.md
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 test
+./node_modules/eyes/lib
+total 12
+-rwxrwxrwx+ 1 khali khali 8551 Dec  9  2011 eyes.js
+./node_modules/eyes/test
+total 4
+-rwxrwxrwx+ 1 khali khali 1467 Dec  9  2011 eyes-test.js
+./node_modules/filelist
+total 29
+-rwxrwxrwx+ 1 khali khali  2958 Feb  6 20:56 index.d.ts
+-rwxrwxrwx+ 1 khali khali 12953 Feb  6 20:56 index.js
+-rwxrwxrwx+ 1 khali khali   238 Feb  6 20:56 jakefile.js
+-rwxrwxrwx+ 1 khali khali  1499 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  2131 Feb  6 20:56 README.md
+./node_modules/finalhandler
+total 24
+-rwxrwxrwx+ 1 khali khali 4080 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 6518 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1119 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2412 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 4012 Oct 26  1985 README.md
+./node_modules/forwarded
+total 17
+-rwxrwxrwx+ 1 khali khali  306 Sep 15  2017 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 1360 Sep 15  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1094 Sep 15  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali 2164 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1637 Sep 15  2017 README.md
+./node_modules/fresh
+total 20
+-rwxrwxrwx+ 1 khali khali 1500 Sep 14  2017 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 2711 Sep 14  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1174 Feb 20  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali 2424 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 3374 Sep 14  2017 README.md
+./node_modules/fs.realpath
+total 28
+-rwxrwxrwx+ 1 khali khali 1308 Jun 15  2016 index.js
+-rwxrwxrwx+ 1 khali khali 2125 Jun 15  2016 LICENSE
+-rwxrwxrwx+ 1 khali khali 8542 Jun 15  2016 old.js
+-rwxrwxrwx+ 1 khali khali 1541 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  881 Jun 15  2016 README.md
+./node_modules/glob
+total 68
+-rwxrwxrwx+ 1 khali khali  1430 Oct 26  1985 changelog.md
+-rwxrwxrwx+ 1 khali khali  6167 Oct 26  1985 common.js
+-rwxrwxrwx+ 1 khali khali 19433 Oct 26  1985 glob.js
+-rwxrwxrwx+ 1 khali khali   976 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  2041 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 15002 Oct 26  1985 README.md
+-rwxrwxrwx+ 1 khali khali 12002 Oct 26  1985 sync.js
+./node_modules/has-flag
+total 13
+-rwxrwxrwx+ 1 khali khali  320 Jan  2  2018 index.js
+-rwxrwxrwx+ 1 khali khali 1109 Jun  1  2017 license
+-rwxrwxrwx+ 1 khali khali 1692 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  986 Jan  2  2018 readme.md
+./node_modules/http-errors
+total 28
+-rwxrwxrwx+ 1 khali khali 3145 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 5878 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1168 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2547 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 5554 Oct 26  1985 README.md
+./node_modules/iconv-lite
+total 32
+-rwxrwxrwx+ 1 khali khali 4342 Aug 22  2018 Changelog.md
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 encodings
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 1064 Jan 19  2016 LICENSE
+-rwxrwxrwx+ 1 khali khali 2017 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 6534 Aug 22  2018 README.md
+./node_modules/iconv-lite/encodings
+total 113
+-rwxrwxrwx+ 1 khali khali 21415 Aug 22  2018 dbcs-codec.js
+-rwxrwxrwx+ 1 khali khali  8291 Aug 22  2018 dbcs-data.js
+-rwxrwxrwx+ 1 khali khali   710 Aug 22  2018 index.js
+-rwxrwxrwx+ 1 khali khali  6115 Aug 22  2018 internal.js
+-rwxrwxrwx+ 1 khali khali  2191 Aug 22  2018 sbcs-codec.js
+-rwxrwxrwx+ 1 khali khali  4686 Aug 22  2018 sbcs-data.js
+-rwxrwxrwx+ 1 khali khali 32034 Aug 22  2018 sbcs-data-generated.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 tables
+-rwxrwxrwx+ 1 khali khali  5011 Aug 22  2018 utf16.js
+-rwxrwxrwx+ 1 khali khali  9215 Aug 22  2018 utf7.js
+./node_modules/iconv-lite/encodings/tables
+total 228
+-rwxrwxrwx+ 1 khali khali 17717 Jan 19  2016 big5-added.json
+-rwxrwxrwx+ 1 khali khali 47320 Jan 19  2016 cp936.json
+-rwxrwxrwx+ 1 khali khali 38122 Jan 19  2016 cp949.json
+-rwxrwxrwx+ 1 khali khali 42356 Jan 19  2016 cp950.json
+-rwxrwxrwx+ 1 khali khali 41064 Jan 19  2016 eucjp.json
+-rwxrwxrwx+ 1 khali khali  2216 Jan 19  2016 gb18030-ranges.json
+-rwxrwxrwx+ 1 khali khali  1227 Jan 19  2016 gbk-added.json
+-rwxrwxrwx+ 1 khali khali 23782 Jan 19  2016 shiftjis.json
+./node_modules/iconv-lite/lib
+total 32
+-rwxrwxrwx+ 1 khali khali 1109 Aug 22  2018 bom-handling.js
+-rwxrwxrwx+ 1 khali khali 8701 Aug 22  2018 extend-node.js
+-rwxrwxrwx+ 1 khali khali  982 Aug 22  2018 index.d.ts
+-rwxrwxrwx+ 1 khali khali 5123 Aug 22  2018 index.js
+-rwxrwxrwx+ 1 khali khali 3387 Aug 22  2018 streams.js
+./node_modules/inflight
+total 16
+-rwxrwxrwx+ 1 khali khali 1365 Oct 13  2016 inflight.js
+-rwxrwxrwx+ 1 khali khali  748 May  5  2014 LICENSE
+-rwxrwxrwx+ 1 khali khali 1462 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  991 May  5  2014 README.md
+./node_modules/inherits
+total 17
+-rwxrwxrwx+ 1 khali khali  192 Sep  7  2016 inherits.js
+-rwxrwxrwx+ 1 khali khali  672 May 16  2013 inherits_browser.js
+-rwxrwxrwx+ 1 khali khali  749 Aug 20  2013 LICENSE
+-rwxrwxrwx+ 1 khali khali 1561 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1625 May 16  2013 README.md
+./node_modules/ipaddr.js
+total 32
+-rwxrwxrwx+ 1 khali khali 9738 Oct 26  1985 ipaddr.min.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 1087 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 1768 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 8309 Oct 26  1985 README.md
+./node_modules/ipaddr.js/lib
+total 24
+-rwxrwxrwx+ 1 khali khali 19333 Oct 26  1985 ipaddr.js
+-rwxrwxrwx+ 1 khali khali  2959 Oct 26  1985 ipaddr.js.d.ts
+./node_modules/isarray
+total 14
+-rwxrwxrwx+ 1 khali khali   13 Dec 10  2015 .npmignore
+-rwxrwxrwx+ 1 khali khali   48 Dec 10  2015 .travis.yml
+-rwxrwxrwx+ 1 khali khali  470 Dec 10  2015 component.json
+-rwxrwxrwx+ 1 khali khali  132 Dec 10  2015 index.js
+-rwxrwxrwx+ 1 khali khali   55 Dec 10  2015 Makefile
+-rwxrwxrwx+ 1 khali khali 1804 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1890 Dec 10  2015 README.md
+-rwxrwxrwx+ 1 khali khali  320 Dec 10  2015 test.js
+./node_modules/jake
+total 21
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 bin
+-rwxrwxrwx+ 1 khali khali 2887 Jun  9  2020 jakefile.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 1319 Jun  9  2020 Makefile
+-rwxrwxrwx+ 1 khali khali 1900 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  556 Jun  9  2020 README.md
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 test
+-rwxrwxrwx+ 1 khali khali  991 Jun  9  2020 usage.txt
+./node_modules/jake/bin
+total 8
+-rwxrwxrwx+ 1 khali khali 1375 Jun  9  2020 bash_completion.sh
+-rwxrwxrwx+ 1 khali khali  907 Jun  9  2020 cli.js
+./node_modules/jake/lib
+total 92
+-rwxrwxrwx+ 1 khali khali 12216 Jun  9  2020 api.js
+-rwxrwxrwx+ 1 khali khali  9438 Jun  9  2020 jake.js
+-rwxrwxrwx+ 1 khali khali  4192 Jun  9  2020 loader.js
+-rwxrwxrwx+ 1 khali khali  2453 Jun  9  2020 namespace.js
+-rwxrwxrwx+ 1 khali khali 11004 Jun  9  2020 package_task.js
+-rwxrwxrwx+ 1 khali khali  3753 Jun  9  2020 parseargs.js
+-rwxrwxrwx+ 1 khali khali  6544 Jun  9  2020 program.js
+-rwxrwxrwx+ 1 khali khali  9150 Jun  9  2020 publish_task.js
+-rwxrwxrwx+ 1 khali khali  7873 Jun  9  2020 rule.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 task
+-rwxrwxrwx+ 1 khali khali  8482 Jun  9  2020 test_task.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 utils
+./node_modules/jake/lib/task
+total 18
+-rwxrwxrwx+ 1 khali khali   575 Jun  9  2020 directory_task.js
+-rwxrwxrwx+ 1 khali khali  3306 Jun  9  2020 file_task.js
+-rwxrwxrwx+ 1 khali khali   238 Jun  9  2020 index.js
+-rwxrwxrwx+ 1 khali khali 11958 Jun  9  2020 task.js
+./node_modules/jake/lib/utils
+total 17
+-rwxrwxrwx+ 1 khali khali 7660 Jun  9  2020 file.js
+-rwxrwxrwx+ 1 khali khali 7274 Jun  9  2020 index.js
+-rwxrwxrwx+ 1 khali khali  505 Jun  9  2020 logger.js
+./node_modules/jake/test
+total 4
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 integration
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 unit
+./node_modules/jake/test/integration
+total 61
+-rwxrwxrwx+ 1 khali khali 1612 Jun  9  2020 concurrent.js
+-rwxrwxrwx+ 1 khali khali 6598 Jun  9  2020 file.js
+-rwxrwxrwx+ 1 khali khali 4675 Jun  9  2020 file_task.js
+-rwxrwxrwx+ 1 khali khali 1590 Jun  9  2020 helpers.js
+-rwxrwxrwx+ 1 khali khali 9118 Jun  9  2020 jakefile.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 jakelib
+-rwxrwxrwx+ 1 khali khali  600 Jun  9  2020 publish_task.js
+-rwxrwxrwx+ 1 khali khali 6887 Jun  9  2020 rule.js
+-rwxrwxrwx+ 1 khali khali  746 Jun  9  2020 selfdep.js
+-rwxrwxrwx+ 1 khali khali 5945 Jun  9  2020 task_base.js
+./node_modules/jake/test/integration/jakelib
+total 17
+-rwxrwxrwx+ 1 khali khali 2473 Jun  9  2020 concurrent.jake.js
+-rwxrwxrwx+ 1 khali khali 1413 Jun  9  2020 publish.jake.js
+-rwxrwxrwx+ 1 khali khali  151 Jun  9  2020 required_module.jake.js
+-rwxrwxrwx+ 1 khali khali 6881 Jun  9  2020 rule.jake.js
+./node_modules/jake/test/unit
+total 13
+-rwxrwxrwx+ 1 khali khali  580 Jun  9  2020 jakefile.js
+-rwxrwxrwx+ 1 khali khali 2582 Jun  9  2020 namespace.js
+-rwxrwxrwx+ 1 khali khali 5320 Jun  9  2020 parseargs.js
+./node_modules/media-typer
+total 21
+-rwxrwxrwx+ 1 khali khali  461 Sep  8  2014 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 6375 Sep  8  2014 index.js
+-rwxrwxrwx+ 1 khali khali 1089 Sep  8  2014 LICENSE
+-rwxrwxrwx+ 1 khali khali 1777 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2371 Sep  8  2014 README.md
+./node_modules/merge-descriptors
+total 17
+-rwxrwxrwx+ 1 khali khali  363 Jan 18  2016 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 1215 Jan 18  2016 index.js
+-rwxrwxrwx+ 1 khali khali 1167 Jan 18  2016 LICENSE
+-rwxrwxrwx+ 1 khali khali 2015 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1213 May 22  2015 README.md
+./node_modules/methods
+total 17
+-rwxrwxrwx+ 1 khali khali  427 Jan 18  2016 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 1040 Jan 18  2016 index.js
+-rwxrwxrwx+ 1 khali khali 1180 Jan 18  2016 LICENSE
+-rwxrwxrwx+ 1 khali khali 2034 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1694 Jan 18  2016 README.md
+./node_modules/mime
+total 61
+-rwxrwxrwx+ 1 khali khali     0 Nov 25  2017 .npmignore
+-rwxrwxrwx+ 1 khali khali  9473 Nov 25  2017 CHANGELOG.md
+-rwxrwxrwx+ 1 khali khali   149 Nov 25  2017 cli.js
+-rwxrwxrwx+ 1 khali khali  1098 Nov 23  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali  2726 Nov 25  2017 mime.js
+-rwxrwxrwx+ 1 khali khali  1853 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  2119 Nov 25  2017 README.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 src
+-rwxrwxrwx+ 1 khali khali 31555 Nov 25  2017 types.json
+./node_modules/mime/src
+total 8
+-rwxrwxrwx+ 1 khali khali 1351 Nov 25  2017 build.js
+-rwxrwxrwx+ 1 khali khali 2334 Nov 25  2017 test.js
+./node_modules/mime-db
+total 209
+-rwxrwxrwx+ 1 khali khali 181417 Oct 26  1985 db.json
+-rwxrwxrwx+ 1 khali khali  11555 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali    136 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali   1099 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali   2785 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali   4102 Oct 26  1985 README.md
+./node_modules/mime-types
+total 24
+-rwxrwxrwx+ 1 khali khali 7806 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 3663 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1167 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2354 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 3484 Oct 26  1985 README.md
+./node_modules/minimatch
+total 44
+-rwxrwxrwx+ 1 khali khali   765 May 19  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali 25347 Aug  9  2016 minimatch.js
+-rwxrwxrwx+ 1 khali khali  1701 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  6336 Feb 20  2016 README.md
+./node_modules/ms
+total 16
+-rwxrwxrwx+ 1 khali khali 2764 May 16  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1077 May 16  2017 license.md
+-rwxrwxrwx+ 1 khali khali 1583 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1721 May 16  2017 readme.md
+./node_modules/mysql
+total 104
+-rwxrwxrwx+ 1 khali khali 21090 Oct 26  1985 Changes.md
+-rwxrwxrwx+ 1 khali khali  4533 Oct 26  1985 index.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali  1118 Oct 26  1985 License
+-rwxrwxrwx+ 1 khali khali  2592 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 57600 Oct 26  1985 Readme.md
+./node_modules/mysql/lib
+total 57
+-rwxrwxrwx+ 1 khali khali 13831 Oct 26  1985 Connection.js
+-rwxrwxrwx+ 1 khali khali  6614 Oct 26  1985 ConnectionConfig.js
+-rwxrwxrwx+ 1 khali khali  7586 Oct 26  1985 Pool.js
+-rwxrwxrwx+ 1 khali khali  6470 Oct 26  1985 PoolCluster.js
+-rwxrwxrwx+ 1 khali khali  1057 Oct 26  1985 PoolConfig.js
+-rwxrwxrwx+ 1 khali khali  1697 Oct 26  1985 PoolConnection.js
+-rwxrwxrwx+ 1 khali khali  3220 Oct 26  1985 PoolNamespace.js
+-rwxrwxrwx+ 1 khali khali   588 Oct 26  1985 PoolSelector.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 protocol
+./node_modules/mysql/lib/protocol
+total 65
+-rwxrwxrwx+ 1 khali khali  4292 Oct 26  1985 Auth.js
+-rwxrwxrwx+ 1 khali khali   385 Oct 26  1985 BufferList.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 constants
+-rwxrwxrwx+ 1 khali khali   121 Oct 26  1985 PacketHeader.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 packets
+-rwxrwxrwx+ 1 khali khali  5372 Oct 26  1985 PacketWriter.js
+-rwxrwxrwx+ 1 khali khali 13406 Oct 26  1985 Parser.js
+-rwxrwxrwx+ 1 khali khali 11657 Oct 26  1985 Protocol.js
+-rwxrwxrwx+ 1 khali khali   233 Oct 26  1985 ResultSet.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 sequences
+-rwxrwxrwx+ 1 khali khali    39 Oct 26  1985 SqlString.js
+-rwxrwxrwx+ 1 khali khali   699 Oct 26  1985 Timer.js
+./node_modules/mysql/lib/protocol/constants
+total 284
+-rwxrwxrwx+ 1 khali khali  11398 Oct 26  1985 charsets.js
+-rwxrwxrwx+ 1 khali khali   1629 Oct 26  1985 client.js
+-rwxrwxrwx+ 1 khali khali 176038 Oct 26  1985 errors.js
+-rwxrwxrwx+ 1 khali khali   1066 Oct 26  1985 field_flags.js
+-rwxrwxrwx+ 1 khali khali   1449 Oct 26  1985 server_status.js
+-rwxrwxrwx+ 1 khali khali  82511 Oct 26  1985 ssl_profiles.js
+-rwxrwxrwx+ 1 khali khali   1763 Oct 26  1985 types.js
+./node_modules/mysql/lib/protocol/packets
+total 60
+-rwxrwxrwx+ 1 khali khali  707 Oct 26  1985 AuthSwitchRequestPacket.js
+-rwxrwxrwx+ 1 khali khali  375 Oct 26  1985 AuthSwitchResponsePacket.js
+-rwxrwxrwx+ 1 khali khali 2080 Oct 26  1985 ClientAuthenticationPacket.js
+-rwxrwxrwx+ 1 khali khali  960 Oct 26  1985 ComChangeUserPacket.js
+-rwxrwxrwx+ 1 khali khali  289 Oct 26  1985 ComPingPacket.js
+-rwxrwxrwx+ 1 khali khali  405 Oct 26  1985 ComQueryPacket.js
+-rwxrwxrwx+ 1 khali khali  301 Oct 26  1985 ComQuitPacket.js
+-rwxrwxrwx+ 1 khali khali  313 Oct 26  1985 ComStatisticsPacket.js
+-rwxrwxrwx+ 1 khali khali  163 Oct 26  1985 EmptyPacket.js
+-rwxrwxrwx+ 1 khali khali  721 Oct 26  1985 EofPacket.js
+-rwxrwxrwx+ 1 khali khali 1007 Oct 26  1985 ErrorPacket.js
+-rwxrwxrwx+ 1 khali khali  649 Oct 26  1985 Field.js
+-rwxrwxrwx+ 1 khali khali 3264 Oct 26  1985 FieldPacket.js
+-rwxrwxrwx+ 1 khali khali 3958 Oct 26  1985 HandshakeInitializationPacket.js
+-rwxrwxrwx+ 1 khali khali 1360 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  319 Oct 26  1985 LocalDataFilePacket.js
+-rwxrwxrwx+ 1 khali khali  609 Oct 26  1985 LocalInfileRequestPacket.js
+-rwxrwxrwx+ 1 khali khali 1414 Oct 26  1985 OkPacket.js
+-rwxrwxrwx+ 1 khali khali  367 Oct 26  1985 OldPasswordPacket.js
+-rwxrwxrwx+ 1 khali khali  381 Oct 26  1985 ResultSetHeaderPacket.js
+-rwxrwxrwx+ 1 khali khali 4088 Oct 26  1985 RowDataPacket.js
+-rwxrwxrwx+ 1 khali khali  983 Oct 26  1985 SSLRequestPacket.js
+-rwxrwxrwx+ 1 khali khali  544 Oct 26  1985 StatisticsPacket.js
+-rwxrwxrwx+ 1 khali khali  379 Oct 26  1985 UseOldPasswordPacket.js
+./node_modules/mysql/lib/protocol/sequences
+total 30
+-rwxrwxrwx+ 1 khali khali 2071 Oct 26  1985 ChangeUser.js
+-rwxrwxrwx+ 1 khali khali 3723 Oct 26  1985 Handshake.js
+-rwxrwxrwx+ 1 khali khali  282 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  434 Oct 26  1985 Ping.js
+-rwxrwxrwx+ 1 khali khali 5705 Oct 26  1985 Query.js
+-rwxrwxrwx+ 1 khali khali  861 Oct 26  1985 Quit.js
+-rwxrwxrwx+ 1 khali khali 3231 Oct 26  1985 Sequence.js
+-rwxrwxrwx+ 1 khali khali  727 Oct 26  1985 Statistics.js
+./node_modules/negotiator
+total 24
+-rwxrwxrwx+ 1 khali khali 2406 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 3344 Oct 26  1985 index.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 1177 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2176 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 4811 Oct 26  1985 README.md
+./node_modules/negotiator/lib
+total 20
+-rwxrwxrwx+ 1 khali khali 3081 Oct 26  1985 charset.js
+-rwxrwxrwx+ 1 khali khali 3506 Oct 26  1985 encoding.js
+-rwxrwxrwx+ 1 khali khali 3408 Oct 26  1985 language.js
+-rwxrwxrwx+ 1 khali khali 5358 Oct 26  1985 mediaType.js
+./node_modules/on-finished
+total 24
+-rwxrwxrwx+ 1 khali khali 1694 May 27  2015 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 3686 May 26  2015 index.js
+-rwxrwxrwx+ 1 khali khali 1167 Aug 16  2014 LICENSE
+-rwxrwxrwx+ 1 khali khali 2015 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 4886 May 26  2015 README.md
+./node_modules/on-headers
+total 17
+-rwxrwxrwx+ 1 khali khali  387 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 2664 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1089 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2331 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2155 Oct 26  1985 README.md
+./node_modules/once
+total 16
+-rwxrwxrwx+ 1 khali khali  765 May  5  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali  935 Sep  6  2016 once.js
+-rwxrwxrwx+ 1 khali khali 1482 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1772 Sep  6  2016 README.md
+./node_modules/parseurl
+total 20
+-rwxrwxrwx+ 1 khali khali 1043 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 2809 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1173 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2358 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 4094 Oct 26  1985 README.md
+./node_modules/path-is-absolute
+total 13
+-rwxrwxrwx+ 1 khali khali  611 Sep 30  2016 index.js
+-rwxrwxrwx+ 1 khali khali 1119 Apr  6  2014 license
+-rwxrwxrwx+ 1 khali khali 1783 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1153 Sep 30  2016 readme.md
+./node_modules/path-to-regexp
+total 17
+-rwxrwxrwx+ 1 khali khali  694 Jul 28  2015 History.md
+-rwxrwxrwx+ 1 khali khali 3328 Jul 28  2015 index.js
+-rwxrwxrwx+ 1 khali khali 1103 Jul 28  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali 1520 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1102 Jul 28  2015 Readme.md
+./node_modules/process-nextick-args
+total 13
+-rwxrwxrwx+ 1 khali khali 1083 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1064 Oct 26  1985 license.md
+-rwxrwxrwx+ 1 khali khali 1530 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  450 Oct 26  1985 readme.md
+./node_modules/promise-mysql
+total 29
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 .github
+-rwxrwxrwx+ 1 khali khali 3723 Oct 26  1985 index.d.ts
+-rwxrwxrwx+ 1 khali khali  533 Oct 26  1985 index.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 1083 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2036 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 8505 Oct 26  1985 README.md
+./node_modules/promise-mysql/.github
+total 0
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 workflows
+./node_modules/promise-mysql/.github/workflows
+total 4
+-rwxrwxrwx+ 1 khali khali 694 Oct 26  1985 node.js.yml
+./node_modules/promise-mysql/lib
+total 21
+-rwxrwxrwx+ 1 khali khali 4249 Oct 26  1985 connection.js
+-rwxrwxrwx+ 1 khali khali  825 Oct 26  1985 helper.js
+-rwxrwxrwx+ 1 khali khali 2104 Oct 26  1985 pool.js
+-rwxrwxrwx+ 1 khali khali 1515 Oct 26  1985 poolCluster.js
+-rwxrwxrwx+ 1 khali khali  265 Oct 26  1985 poolConnection.js
+./node_modules/proxy-addr
+total 28
+-rwxrwxrwx+ 1 khali khali 2869 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 6000 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1094 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2273 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 4400 Oct 26  1985 README.md
+./node_modules/qs
+total 54
+-rwxrwxrwx+ 1 khali khali   399 Oct 26  1985 .editorconfig
+-rwxrwxrwx+ 1 khali khali     5 Oct 26  1985 .eslintignore
+-rwxrwxrwx+ 1 khali khali   647 Oct 26  1985 .eslintrc
+-rwxrwxrwx+ 1 khali khali 14655 Oct 26  1985 CHANGELOG.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 dist
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali  1654 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  2385 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 18228 Oct 26  1985 README.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 test
+./node_modules/qs/dist
+total 28
+-rwxrwxrwx+ 1 khali khali 24660 Oct 26  1985 qs.js
+./node_modules/qs/lib
+total 34
+-rwxrwxrwx+ 1 khali khali  387 Oct 26  1985 formats.js
+-rwxrwxrwx+ 1 khali khali  211 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 8492 Oct 26  1985 parse.js
+-rwxrwxrwx+ 1 khali khali 8230 Oct 26  1985 stringify.js
+-rwxrwxrwx+ 1 khali khali 6204 Oct 26  1985 utils.js
+./node_modules/qs/test
+total 62
+-rwxrwxrwx+ 1 khali khali   422 Oct 26  1985 .eslintrc
+-rwxrwxrwx+ 1 khali khali    81 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 27758 Oct 26  1985 parse.js
+-rwxrwxrwx+ 1 khali khali 24073 Oct 26  1985 stringify.js
+-rwxrwxrwx+ 1 khali khali  5096 Oct 26  1985 utils.js
+./node_modules/random-bytes
+total 17
+-rwxrwxrwx+ 1 khali khali   59 Jan 17  2016 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 1994 Jan 17  2016 index.js
+-rwxrwxrwx+ 1 khali khali 1118 Jan 17  2016 LICENSE
+-rwxrwxrwx+ 1 khali khali 1991 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2125 Jan 17  2016 README.md
+./node_modules/range-parser
+total 20
+-rwxrwxrwx+ 1 khali khali  917 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 2900 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1178 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2431 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2278 Oct 26  1985 README.md
+./node_modules/raw-body
+total 36
+-rwxrwxrwx+ 1 khali khali 5354 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 2286 Oct 26  1985 index.d.ts
+-rwxrwxrwx+ 1 khali khali 6059 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1181 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2628 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 6339 Oct 26  1985 README.md
+./node_modules/readable-stream
+total 43
+-rwxrwxrwx+ 1 khali khali  991 Oct 26  1985 .travis.yml
+-rwxrwxrwx+ 1 khali khali 1443 Oct 26  1985 CONTRIBUTING.md
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 doc
+-rwxrwxrwx+ 1 khali khali   46 Oct 26  1985 duplex.js
+-rwxrwxrwx+ 1 khali khali   53 Oct 26  1985 duplex-browser.js
+-rwxrwxrwx+ 1 khali khali 5550 Oct 26  1985 GOVERNANCE.md
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 2337 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2399 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali   51 Oct 26  1985 passthrough.js
+-rwxrwxrwx+ 1 khali khali  771 Oct 26  1985 readable.js
+-rwxrwxrwx+ 1 khali khali  351 Oct 26  1985 readable-browser.js
+-rwxrwxrwx+ 1 khali khali 2999 Oct 26  1985 README.md
+-rwxrwxrwx+ 1 khali khali   49 Oct 26  1985 transform.js
+-rwxrwxrwx+ 1 khali khali  229 Oct 26  1985 writable.js
+-rwxrwxrwx+ 1 khali khali   55 Oct 26  1985 writable-browser.js
+./node_modules/readable-stream/doc
+total 0
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 wg-meetings
+./node_modules/readable-stream/doc/wg-meetings
+total 4
+-rwxrwxrwx+ 1 khali khali 2280 Oct 26  1985 2015-01-30.md
+./node_modules/readable-stream/lib
+total 68
+-rwxrwxrwx+ 1 khali khali  4015 Oct 26  1985 _stream_duplex.js
+-rwxrwxrwx+ 1 khali khali  1753 Oct 26  1985 _stream_passthrough.js
+-rwxrwxrwx+ 1 khali khali 31324 Oct 26  1985 _stream_readable.js
+-rwxrwxrwx+ 1 khali khali  7742 Oct 26  1985 _stream_transform.js
+-rwxrwxrwx+ 1 khali khali 20317 Oct 26  1985 _stream_writable.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 internal
+./node_modules/readable-stream/lib/internal
+total 0
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 streams
+./node_modules/readable-stream/lib/internal/streams
+total 10
+-rwxrwxrwx+ 1 khali khali 2059 Oct 26  1985 BufferList.js
+-rwxrwxrwx+ 1 khali khali 1849 Oct 26  1985 destroy.js
+-rwxrwxrwx+ 1 khali khali   36 Oct 26  1985 stream.js
+-rwxrwxrwx+ 1 khali khali   49 Oct 26  1985 stream-browser.js
+./node_modules/safe-buffer
+total 44
+-rwxrwxrwx+ 1 khali khali  8738 Oct 26  1985 index.d.ts
+-rwxrwxrwx+ 1 khali khali  1529 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  1081 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  1720 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 19555 Oct 26  1985 README.md
+./node_modules/safer-buffer
+total 60
+-rwxrwxrwx+ 1 khali khali  1483 Oct 26  1985 dangerous.js
+-rwxrwxrwx+ 1 khali khali  1094 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  1782 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 12794 Oct 26  1985 Porting-Buffer.md
+-rwxrwxrwx+ 1 khali khali  8261 Oct 26  1985 Readme.md
+-rwxrwxrwx+ 1 khali khali  2110 Oct 26  1985 safer.js
+-rwxrwxrwx+ 1 khali khali 15735 Oct 26  1985 tests.js
+./node_modules/send
+total 60
+-rwxrwxrwx+ 1 khali khali 12643 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 23287 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  1128 Oct 26  1985 LICENSE
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 node_modules
+-rwxrwxrwx+ 1 khali khali  2822 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  9442 Oct 26  1985 README.md
+./node_modules/send/node_modules
+total 4
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 ms
+./node_modules/send/node_modules/ms
+total 16
+-rwxrwxrwx+ 1 khali khali 3034 Nov 30  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1077 Nov 30  2017 license.md
+-rwxrwxrwx+ 1 khali khali 1649 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2002 Nov 30  2017 readme.md
+./node_modules/serve-static
+total 36
+-rwxrwxrwx+ 1 khali khali 10083 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali  4570 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  1189 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  2373 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  7783 Oct 26  1985 README.md
+./node_modules/session
+total 14
+-rwxrwxrwx+ 1 khali khali  387 Sep 21  2010 .project
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 .settings
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 1136 Sep 30  2010 LICENSE
+-rwxrwxrwx+ 1 khali khali 1555 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  438 Sep 30  2010 README
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 test
+./node_modules/session/.settings
+total 3
+-rwxrwxrwx+ 1 khali khali 229 Sep 21  2010 .jsdtscope
+-rwxrwxrwx+ 1 khali khali  44 Sep 21  2010 org.eclipse.wst.jsdt.ui.superType.container
+-rwxrwxrwx+ 1 khali khali   6 Sep 21  2010 org.eclipse.wst.jsdt.ui.superType.name
+./node_modules/session/lib
+total 0
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 session
+./node_modules/session/lib/session
+total 13
+-rwxrwxrwx+ 1 khali khali  144 Sep 28  2010 index.js
+-rwxrwxrwx+ 1 khali khali 8617 Sep 29  2010 session.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 storage
+./node_modules/session/lib/session/storage
+total 12
+-rwxrwxrwx+ 1 khali khali 3334 Sep 29  2010 base.js
+-rwxrwxrwx+ 1 khali khali 1860 Sep 28  2010 memcached.js
+-rwxrwxrwx+ 1 khali khali 3259 Sep 29  2010 memory.js
+./node_modules/session/test
+total 0
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 session
+./node_modules/session/test/session
+total 12
+-rwxrwxrwx+ 1 khali khali 10702 Sep 29  2010 session.test.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 storage
+./node_modules/session/test/session/storage
+total 4
+-rwxrwxrwx+ 1 khali khali 2006 Sep 30  2010 base.test.js
+./node_modules/setprototypeof
+total 11
+-rwxrwxrwx+ 1 khali khali   93 Oct 26  1985 index.d.ts
+-rwxrwxrwx+ 1 khali khali  384 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali  727 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2090 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  850 Oct 26  1985 README.md
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 test
+./node_modules/setprototypeof/test
+total 1
+-rwxrwxrwx+ 1 khali khali 690 Oct 26  1985 index.js
+./node_modules/sqlstring
+total 21
+-rwxrwxrwx+ 1 khali khali  859 Feb 25  2018 HISTORY.md
+-rwxrwxrwx+ 1 khali khali   45 Oct  2  2017 index.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 1118 Mar 31  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali 2392 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 7969 Oct  2  2017 README.md
+./node_modules/sqlstring/lib
+total 8
+-rwxrwxrwx+ 1 khali khali 5858 Feb 25  2018 SqlString.js
+./node_modules/statuses
+total 24
+-rwxrwxrwx+ 1 khali khali 1821 Mar 28  2018 codes.json
+-rwxrwxrwx+ 1 khali khali 1023 Mar 28  2018 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 2088 Oct 20  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1172 Oct 20  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali 2606 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 3458 Oct 20  2017 README.md
+./node_modules/string_decoder
+total 16
+-rwxrwxrwx+ 1 khali khali  899 Oct 26  1985 .travis.yml
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali 2338 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 1767 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1801 Oct 26  1985 README.md
+./node_modules/string_decoder/lib
+total 12
+-rwxrwxrwx+ 1 khali khali 9465 Oct 26  1985 string_decoder.js
+./node_modules/supports-color
+total 17
+-rwxrwxrwx+ 1 khali khali   67 Mar 24  2018 browser.js
+-rwxrwxrwx+ 1 khali khali 2771 Aug 20  2018 index.js
+-rwxrwxrwx+ 1 khali khali 1109 Jun  1  2017 license
+-rwxrwxrwx+ 1 khali khali 1978 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1865 Mar 24  2018 readme.md
+./node_modules/toidentifier
+total 13
+-rwxrwxrwx+ 1 khali khali  490 Jul  2  2018 index.js
+-rwxrwxrwx+ 1 khali khali 1108 Jul  2  2018 LICENSE
+-rwxrwxrwx+ 1 khali khali 2206 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1718 Jul  9  2018 README.md
+./node_modules/type-is
+total 32
+-rwxrwxrwx+ 1 khali khali 5447 Oct 26  1985 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 5562 Oct 26  1985 index.js
+-rwxrwxrwx+ 1 khali khali 1172 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali 2261 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 5183 Oct 26  1985 README.md
+./node_modules/uid-safe
+total 20
+-rwxrwxrwx+ 1 khali khali  944 Aug  3  2017 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 1931 Jul 26  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1176 Jul 26  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali 2395 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2157 Jul 26  2017 README.md
+./node_modules/unpipe
+total 17
+-rwxrwxrwx+ 1 khali khali   59 Jun 14  2015 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 1118 Jun 14  2015 index.js
+-rwxrwxrwx+ 1 khali khali 1114 Jun 14  2015 LICENSE
+-rwxrwxrwx+ 1 khali khali 1768 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1250 Jun 14  2015 README.md
+./node_modules/util-deprecate
+total 18
+-rwxrwxrwx+ 1 khali khali 1614 Oct  7  2015 browser.js
+-rwxrwxrwx+ 1 khali khali  282 Oct  7  2015 History.md
+-rwxrwxrwx+ 1 khali khali 1102 Nov 25  2014 LICENSE
+-rwxrwxrwx+ 1 khali khali  123 Nov 25  2014 node.js
+-rwxrwxrwx+ 1 khali khali 1570 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1666 Nov 25  2014 README.md
+./node_modules/utils-merge
+total 14
+-rwxrwxrwx+ 1 khali khali   79 Sep 20  2017 .npmignore
+-rwxrwxrwx+ 1 khali khali  381 Sep 20  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1084 Sep 20  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali 1692 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 1319 Sep 20  2017 README.md
+./node_modules/vary
+total 20
+-rwxrwxrwx+ 1 khali khali  792 Sep 24  2017 HISTORY.md
+-rwxrwxrwx+ 1 khali khali 2930 Sep 23  2017 index.js
+-rwxrwxrwx+ 1 khali khali 1094 Mar 20  2017 LICENSE
+-rwxrwxrwx+ 1 khali khali 2159 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali 2716 Mar 20  2017 README.md
+./node_modules/vows
+total 53
+-rwxrwxrwx+ 1 khali khali   100 Oct 26  1985 .travis.yml
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 bin
+-rwxrwxrwx+ 1 khali khali 34352 Oct 26  1985 CHANGELOG.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 lib
+-rwxrwxrwx+ 1 khali khali  1053 Oct 26  1985 LICENSE
+-rwxrwxrwx+ 1 khali khali  1758 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  2291 Oct 26  1985 README.md
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 test
+./node_modules/vows/bin
+total 24
+-rwxrwxrwx+ 1 khali khali 20692 Oct 26  1985 vows
+./node_modules/vows/lib
+total 12
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 assert
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 utils
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 vows
+-rwxrwxrwx+ 1 khali khali 8123 Oct 26  1985 vows.js
+./node_modules/vows/lib/assert
+total 24
+-rwxrwxrwx+ 1 khali khali  4732 Oct 26  1985 error.js
+-rwxrwxrwx+ 1 khali khali 10346 Oct 26  1985 macros.js
+-rwxrwxrwx+ 1 khali khali  1905 Oct 26  1985 utils.js
+./node_modules/vows/lib/utils
+total 4
+-rwxrwxrwx+ 1 khali khali 764 Oct 26  1985 nopstream.js
+./node_modules/vows/lib/vows
+total 40
+-rwxrwxrwx+ 1 khali khali  4482 Oct 26  1985 console.js
+-rwxrwxrwx+ 1 khali khali  2750 Oct 26  1985 context.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 coverage
+-rwxrwxrwx+ 1 khali khali   904 Oct 26  1985 extras.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 reporters
+-rwxrwxrwx+ 1 khali khali 14079 Oct 26  1985 suite.js
+./node_modules/vows/lib/vows/coverage
+total 21
+-rwxrwxrwx+ 1 khali khali  647 Oct 26  1985 file.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:32 fragments
+-rwxrwxrwx+ 1 khali khali 5074 Oct 26  1985 report-html.js
+-rwxrwxrwx+ 1 khali khali 1509 Oct 26  1985 report-json.js
+-rwxrwxrwx+ 1 khali khali  969 Oct 26  1985 report-plain.js
+-rwxrwxrwx+ 1 khali khali 2847 Oct 26  1985 report-xml.js
+./node_modules/vows/lib/vows/coverage/fragments
+total 21
+-rwxrwxrwx+ 1 khali khali    23 Oct 26  1985 coverage-foot.html
+-rwxrwxrwx+ 1 khali khali 16465 Oct 26  1985 coverage-head.html
+./node_modules/vows/lib/vows/reporters
+total 22
+-rwxrwxrwx+ 1 khali khali 1850 Oct 26  1985 dot-matrix.js
+-rwxrwxrwx+ 1 khali khali  723 Oct 26  1985 json.js
+-rwxrwxrwx+ 1 khali khali  194 Oct 26  1985 silent.js
+-rwxrwxrwx+ 1 khali khali  947 Oct 26  1985 spec.js
+-rwxrwxrwx+ 1 khali khali 2497 Oct 26  1985 tap.js
+-rwxrwxrwx+ 1 khali khali  936 Oct 26  1985 watch.js
+-rwxrwxrwx+ 1 khali khali 3014 Oct 26  1985 xunit.js
+./node_modules/vows/test
+total 51
+-rwxrwxrwx+ 1 khali khali  6759 Oct 26  1985 assert-test.js
+-rwxrwxrwx+ 1 khali khali   307 Oct 26  1985 c-test.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 experimental
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 fixtures
+-rwxrwxrwx+ 1 khali khali  4109 Oct 26  1985 isolate-test.js
+drwxrwxrwx+ 1 khali khali     0 Mar 23 19:32 reporters
+-rwxrwxrwx+ 1 khali khali  1550 Oct 26  1985 supress-stdout-test.js
+-rwxrwxrwx+ 1 khali khali   309 Oct 26  1985 vows_underscore_test.js
+-rwxrwxrwx+ 1 khali khali   309 Oct 26  1985 VowsCamelCaseTest.js
+-rwxrwxrwx+ 1 khali khali  3956 Oct 26  1985 vows-error-test.js
+-rwxrwxrwx+ 1 khali khali 21998 Oct 26  1985 vows-test.js
+./node_modules/vows/test/experimental
+total 1
+-rwxrwxrwx+ 1 khali khali 579 Oct 26  1985 gh-325.js
+./node_modules/vows/test/fixtures
+total 0
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 isolate
+drwxrwxrwx+ 1 khali khali 0 Mar 23 19:32 supress-stdout
+./node_modules/vows/test/fixtures/isolate
+total 4
+-rwxrwxrwx+ 1 khali khali 422 Oct 26  1985 failing.js
+-rwxrwxrwx+ 1 khali khali 429 Oct 26  1985 log.js
+-rwxrwxrwx+ 1 khali khali 401 Oct 26  1985 passing.js
+-rwxrwxrwx+ 1 khali khali 431 Oct 26  1985 stderr.js
+./node_modules/vows/test/fixtures/supress-stdout
+total 1
+-rwxrwxrwx+ 1 khali khali 339 Oct 26  1985 output.js
+./node_modules/vows/test/reporters
+total 4
+-rwxrwxrwx+ 1 khali khali 670 Oct 26  1985 reporters-test.js
+./node_modules/wcwidth
+total 21
+-rwxrwxrwx+ 1 khali khali   13 May 12  2014 .npmignore
+-rwxrwxrwx+ 1 khali khali 3078 May 12  2014 combining.js
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:33 docs
+-rwxrwxrwx+ 1 khali khali 3141 Jul 27  2014 index.js
+-rwxrwxrwx+ 1 khali khali 1581 May 12  2014 LICENSE
+-rwxrwxrwx+ 1 khali khali 1686 Mar 23 19:33 package.json
+-rwxrwxrwx+ 1 khali khali  887 Jul 29  2014 Readme.md
+drwxrwxrwx+ 1 khali khali    0 Mar 23 19:33 test
+./node_modules/wcwidth/docs
+total 4
+-rwxrwxrwx+ 1 khali khali 3218 May 12  2014 index.md
+./node_modules/wcwidth/test
+total 4
+-rwxrwxrwx+ 1 khali khali 1471 Jul 29  2014 index.js
+./node_modules/wrappy
+total 13
+-rwxrwxrwx+ 1 khali khali  765 May 18  2016 LICENSE
+-rwxrwxrwx+ 1 khali khali 1392 Mar 23 19:32 package.json
+-rwxrwxrwx+ 1 khali khali  685 May 18  2016 README.md
+-rwxrwxrwx+ 1 khali khali  905 May 18  2016 wrappy.js
+./public
+total 48
+-rwxrwxrwx+ 1 khali khali 32988 Feb 24 15:44 favicon.ico
+drwxrwxrwx+ 1 khali khali     0 Mar 23 20:35 img
+drwxrwxrwx+ 1 khali khali     0 Mar 23 20:35 js
+-rwxrwxrwx+ 1 khali khali  1905 Feb 24 15:44 me.html
+-rwxrwxrwx+ 1 khali khali   805 Feb 24 15:44 om.html
+-rwxrwxrwx+ 1 khali khali  1134 Feb 24 15:43 redovisning.html
+drwxrwxrwx+ 1 khali khali     0 Mar 23 20:48 style
+./public/img
+total 52
+-rwxrwxrwx+ 1 khali khali 52962 Feb 24 15:43 me.jpg
+./public/js
+total 1
+-rwxrwxrwx+ 1 khali khali 114 Feb 24 15:43 main.js
+./public/style
+total 4
+-rwxrwxrwx+ 1 khali khali 870 Mar 23 21:45 style.css
+./route
+total 6
+-rwxrwxrwx+ 1 khali khali 495 Mar 23 22:40 exam.js
+-rwxrwxrwx+ 1 khali khali 939 Mar 23 23:10 search.js
+-rwxrwxrwx+ 1 khali khali 461 Mar 23 23:10 spelning.js
+./sql
+total 4
+drwxrwxr-x+ 1 khali khali 0 Mar 23 23:14 exam
+./sql/exam
+total 25
+-rwxrwxrwx+ 1 khali khali  158 Mar 26  2020 artist.csv
+-rwxrwxrwx+ 1 khali khali 8480 Mar 23 23:14 backup.sql
+-rw-rw-r--+ 1 khali khali 2856 Mar 23 22:09 ddl.sql
+-rw-rw-r--+ 1 khali khali 1140 Mar 23 20:24 insert.sql
+-rwxrwxrwx+ 1 khali khali   38 Mar 26  2020 landskod.csv
+-rw-rw-r--+ 1 khali khali  520 Mar 23 19:41 setup.sql
+-rwxrwxrwx+ 1 khali khali  128 Mar 26  2020 speldag.csv
+-rwxrwxrwx+ 1 khali khali  121 Mar 26  2020 spelning.csv
+./src
+total 6
+-rwxrwxrwx+ 1 khali khali 1130 Mar 23 23:05 exam.js
+-rwxrwxrwx+ 1 khali khali  538 Mar 23 22:41 search.js
+-rwxrwxrwx+ 1 khali khali  526 Mar 23 22:13 spelning.js
+./views
+total 1
+-rwxrwxrwx+ 1 khali khali 362 Mar 23 20:48 index.ejs
+drwxrwxrwx+ 1 khali khali   0 Mar 23 20:38 layouts
+drwxrwxrwx+ 1 khali khali   0 Mar 23 22:13 search
+drwxrwxrwx+ 1 khali khali   0 Mar 23 21:19 spelning
+./views/layouts
+total 5
+-rwxrwxrwx+ 1 khali khali 130 Mar 23 20:44 footer.ejs
+-rwxrwxrwx+ 1 khali khali 483 Mar 23 22:34 header.ejs
+./views/search
+total 4
+-rwxrwxrwx+ 1 khali khali 1590 Mar 23 23:03 show-search.ejs
+./views/spelning
+total 4
+-rwxrwxrwx+ 1 khali khali 1308 Mar 23 21:41 show-spelning.ejs

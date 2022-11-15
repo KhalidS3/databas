@@ -1,0 +1,22 @@
+<%- include("header", {title: title}); %>
+
+    <h1>Categories</h1>
+
+    <p>The categories are:</p>
+
+    <table>
+        <tr>
+            <th>Category</th>
+        </tr>
+        <% for (const row of res[0]) { %>
+            <tr>
+                <td>
+                    <a href="/eshop/category/<%= row.kategori %>">
+                        <%= row.kategori %>
+                    </a>
+                </td>
+            </tr>
+            <% }; %>
+
+    </table>
+    <%- include("footer"); %>

@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <title>Redovisning av kursmoment | python</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+
+    <nav>
+        <a href="me.html">Me</a> |
+        <a href="redovisning.html">Redovisning</a> |
+        <a href="om.html">Om</a>
+    </nav>
+
+
+    <article class="redovisning">
+
+        <header>
+            <h1>Redovisning av kursmoment</h1>
+        </header>
+
+        <!-- Redovisningstext för kmom -->
+        <section>
+            <h2>Kmom01</h2>
+            <b>Berätta kort om den utvecklingsmiljö du sitter i och vilka databaser/klienter du installerat och vilka versioner de har.</b>
+            <p>Min datorns operativsystem är Windows 10. Jag har installerat cygwin terminalen för att kunna köra MYSQL terminalklient. Webbläsaren som jag brukar använda är Google Chrome och Firefox. Jag har installerat MySQL, version 8.0.14 med två MYSQL-server
+                klienter, en för MySQL Workbench (desktopklient) och den andra för terminalklient som jag exekverar via Cygwin terminal. Jag använder VSCode version 1.30.2 och Workbench version 8.0.14 för texteditorn.</p>
+
+            <b>Hur känns det att komma igång med databaser, klienter och SQL?</b>
+            <p>Den första kursmomenten var ganska spännande speciellt. Det känns bra att komma igång med databaser, genom arbetet med databaser jag fick lära mig nya saker t.ex, hur en databas uppställas m.m. Jag har använt mig av både texteditorn Workbench
+                och terminalen Cygwin. På Workbench jag sparade/exekverade filer och på terminalen jag exekverade SQL-kommanden.</p>
+
+            <b>Har du jobbat med databaser eller liknande tidigare?</b>
+            <p>Jag har jobbat med databaser tidigare.</p>
+
+            <b>Hur gick det att jobba med SQL i guiden?</b>
+            <p>SQLs guiden var lätläs och enkel att följa efter.</p>
+
+            <b>Jämför SQL med andra sätt att programmera.</b>
+            <p>Jag tycker SQL är lättare än den andra programmerings språk som jag har programmerat tidigare och kunskaperna från min andra programmerings språk hjälper mig väldigt mycket i SQL.</p>
+
+            <b>Vilken är din TIL för detta kmom?</b>
+            <p>Det var inget nytt TIL för mig i detta kmom.</p>
+
+        </section>
+
+
+        <!-- Redovisningstext för kmom -->
+        <section>
+            <h2>Kmom02</h2>
+            <b>Du har nu använt både UNION och JOIN för att slå samman tabeller i SQL, vilken är din uppfattning om databaser och SQL så här långt?</b>
+            <p>Det är spännande och roligt att jobba med databaser och SQL. Det var roligt att lära mig hur man kan ta emot olika sorts av information/data stegvis ur databasen med hjälp av UNION, JOIN och views(vyer). Jag lärde mig också hur man kan skapa
+                ett terminal-program via Javascript.</p>
+
+            <b>Är detta den första bekantskap med JavaScript på serversidan och Node.js, hur känns det och vilken uppfattning, eller förutfattade meningar, har du om detta?</b>
+            <p>Det är inte min första gång som jag jobbar med JavaScript, föra termin läste vi javaScript kursen och jag har jobbat javaScript på serversidan och Node.js också. För mig det är interssant att jobba på serversidan eftersom det kult att bygga
+                nåt eget.
+            </p>
+
+            <b>Hur kändes konceptet med async och await och asynkron programmering?</b>
+            <p>Jag märkte att asynkron ökar kapacitet, förbättrar snabbhet och prestanda hos programmet. Jag har jobbat async, await och asynkron innan men det är bra att lära sig mer.</p>
+
+            <b>Hur gick det att koppla ihop JavaScript, Node.js med SQL och databasen?</b>
+            <p>Så länge jag har lärt mig hur man skriver Javascript filer och hur de kan exekvera i Node.js i min cygwin-terminal för att kommunicera med servern. I kursmomenten "Mer SQL" jag lärde mig om hur man kan sortera tabellen och kombinera kolonner
+                med hjälp av nyckel ord "ORDER BY", "GROUP BY". Jag även lärde mig om aggregerande funktioner liksom "AVG", "SUM", "COUNT"; "ROUND" m.m, jag fick också lära mig om hur man kan fusionera två olika tabeller genom UNION och JOIN. Samtidigt,
+                jag har börjat lära mig dela upp koden i olika filer med klass, objekt och funktioner som kan exporter/importera och kan användas på olika ställarna.
+            </p>
+
+            <b>Vilken är din TIL för detta kmom?</b>
+            <p>Det var ingen speciellt TIl för detta kmom men det var ett bra övning att jobba med aggregerande funktioner, JOIN, UNION och Javascript program som kan kopplas med databas igen.</p>
+
+
+        </section>
+
+
+
+        <!-- Redovisningstext för kmom -->
+        <section>
+            <h2>Kmom03</h2>
+
+            <b>Några generella reflektioner på att skriva och jobba med menydrivna terminalprogram i JavaScript och Node.js?</b>
+            <p>Jag har skrivit många menydrivna program i C++, javaScript och python, det var kul att jobbade med menydrivna terminalprogram i JavaScript och Node.js. Det var faktiskt spännande att jobbade med menydrivna terminalprogram i JavaScript och
+                Node.js eftersom strukturen är väldigt lik C++. En meny kan skrivas med if-sats också men jag tycker om att användning av swtich case är smidigare än if-sats.</p>
+
+            <b>Berätta om din kodstruktur i ditt terminalprogram mot databasen, är du nöjd eller ser du förbättringspotential?</b>
+            <p>Hittills har det gått bra att skriva terminalprogram mot databasen. Jag har skpapat 4 filer, filen.1 är config.json som innehåller information kopplingen till databas. Filen.2 är index.js som tar emot input från användaren och presenterar
+                menyn och innehåller en funktion som hanterar det som användaren matar in och anropar dem funktioner beroende på vad användaren har matat in. Filen.3 är teachers.js innehåller de funktioner som anropas i index.js vad som användaren har
+                matat in med hjälp av menyn, först jag öppnade och stäng databas för varje funktion som jag skapade sen fick veta att man kan göra ett eget funktion för databas uppkoppling anropar sig själv och stängs av databasen i index.js när användaren
+                skriver "exit". Den sista filen som är 4th filen functions.js som innehåller en funktion för varje SQL fråga som ställs till databasen. I alla fall vill jag göra ett ännu bättre jobb i framtiden.</p>
+
+            <b>Något att nämna kring det aktuella stycket i guiden skolan med till exempel outer joins och subqueries?</b>
+            <p>Guiden är väl skriven för outer joins och subqueries. Speciellt förklaringen kring olika joins.</p>
+
+            <b>Hur gick det att jobba med ER-modelleringen, några reflektioner?</b>
+            <p>Att jobba med ER-modellering, det var ingen står svårigheter. Mina tidigare kunskaper från C++ och python kursen som vi har börjat i kmom03 med uml-diagram hjälpte mig mycket med ER-modellering. När det är dags att implementera koden baserat
+                på den första modelleringen ser man visa av de är inte 100 % korrekt även det låter logisk i diagrammet men inte när man skriver kod för de.
+            </p>
+
+            <b>Fanns det några extra svårigheter/utmaningar du kämpade med i kursmomentet?</b>
+            <p>Det var inga svårigheter/utmaningar i detta kursmoment</p>
+
+            <b>Vilken är din TIL för detta kmom?</b>
+            <p>Det var ingen TIL for detta kmom för mig.</p>
+
+        </section>
+
+
+
+        <!-- Redovisningstext för kmom -->
+        <section>
+            <h2>Kmom04</h2>
+
+            <b>Hur gick det att förstå konceptet transaktioner i databas?</b>
+            <p>Det gick bra. Det var bra förklaringar i guiden och en bra exempel.</p>
+
+            <b>Gick det bra att komma igång med Express.js, Node, EJS och MySQL?</b>
+            <p>Det gick bra, man stötte på saker som var nytt och gammalt som man kunde från föregående kursmomenten.</p>
+
+            <b>Lyckas du med god kodstruktur för terminal och webbklient, du såg att man kunde göra en enda funktion som löste flytten av pengar åt båda hållen?</b>
+            <p>Jag tycker om min kodstruktur för terminal och webbklient. Jag använde samma meny kodstruktur som jag använde i terminalen i kmom03. Först gjorde jag en array vilken gav användaren friheten via arrayn att mata in (from, to, amount) En annan
+                funktion ShowBalance som har uppgiften att visa saldo efter transaktionen.</p>
+
+            <b>Gick det bra att sluföra uppgiften om ER modellering samt skapa SQL-kod för databasen?</b>
+            <p>Det gick bra men det tog mindre tid än vad det gjorde med än konceptuellt modellering. Jag ritade diagrammet för hand och sedan skrev jag SQL koden i Workbench för att skapa tabeller med primär och främmande nycklar. Det sista som jag gjorde
+                var "Reverse Engineering" sedan märkte jag att many to many relationen mellan vissa tabeller behövde kopplingstabell.</p>
+
+            <b>Hur känner du allmänt inför kursen så här långt?</b>
+            <p>Det känns underbar så långt och kursen är mycket intressant, jag fick lära mig mycket från kmom01 till kmom04, jag tycker att jag ligger i en bra fas. Guiderna för varje kurs moment är tydliga och förklarade bra för varje del.</p>
+
+            <b>Vilken är din TIL för detta kmom?</b>
+            <p>Min TIL för denna kursmoment har jag lärt mig mycket om ER modellering, när jag skrev SQL koden i Workbench då märkte jag vilka attribut jag behövde. Jag har även lärt mig hur man kan skapa webbklient kopplad till en databas som kan ställa
+                frågor
+            </p>
+
+        </section>
+
+
+
+        <!-- Redovisningstext för kmom -->
+        <section>
+            <h2>Kmom05</h2>
+            <b>Gick det bra att komma igång med lagrade procedurer och triggers?</b>
+            <p>Det gick bra. Det var inte så svart att förstå deras användbarheten och kunna implementera procedurer och triggers i koden.</p>
+
+            <b>Hur är din syn på att “programmera” på detta viset i databasen, jämför med traditionell SQL som exponeras i klienten</b>
+            <p>Det är mer kul med det här sättet att man möter mer utmaningar man programmerar i js och även html och css som jag tycker om. Jag tycker om den transnationella sättet också.</p>
+
+            <b>Skriv ett kort stycke (2-5 meningar) om lagrade procedurer och om triggers där du förklarar begreppen (fördel, nackdel, användningsområde) för en som inte är insatt. </b>
+            <p>Det upplevdes smidigt att använda triggers och även att ha en kod som automatiserade uppdateringarna i loggtabellen utifrån datan. Dock upplevde jag att man måste hålla reda på sina triggers under tidens gång. I SQL-frågorna verkade det bra
+                att beblanda detta med programmering genom procedurerna. Jag anser att databasen skyddas bättre genom att klienterna inte självmant arbetar indirekt mot databaserna utan går igenom de lagrade procedurerna. ddl.sql-filen blev, vad jag anser
+                lång och det blev många procedurer. Någonting som blir en del av databasen är de lagrade procedurerna som är små program som dessutom skrivs in direkt till databasen. Detta används när sql-frågorna inte är tillräckligt rena och koderna
+                inte vill skrivas ut utanför databasen. Triggers är detsamma som procedurerna i databasen och blir därför en del av den. Triggers gör dessutom så att data i tabeller kan automatiseras utifrån olika faktorer och ställen i databasen. Triggers
+                skrivs precis som procedurer i databasen och blir del av den. Triggers gör att man kan automatisera data i tabeller utifrån händelser på olika ställen i databasen.</p>
+
+            <b>Något att kommentera kring arbetet med att komma igång och implementera CRUD i webbklienten?</b>
+            <p>Det gick bra med CRUD jag upplevde inga stora hinder.</p>
+
+            <b>Berätta om hur det gick att utföra uppgiften med din Eshop, berätta även vem du jobbade i grupp med, om någon?</b>
+            <p>Det gick jättebra att jobba med Eshop. Det var kul att lägga till produkter i min databas och andra information det kändes mer verkligt. Jag har jobbat med mig själv.</p>
+
+            <b>Vilken är din TIL för detta kmom?</b>
+            <p>Jag lärde mig om procedurer och triggers som jag tyckte om.</p>
+        </section>
+
+
+
+        <!-- Redovisningstext för kmom -->
+        <section>
+            <h2>Kmom06</h2>
+            <b>Förklara begreppet index i databas för en nybörjare, berätta varför index är viktigt. Skriv ett kort stycke (3-7 rader).</b>
+            <p>Index kan kallas som en lexikons/bok table of content, i table of content där man kan se lexikons/bok innehåll som finns i just den lexikon, söker man på en bokstav av ett ord tex. 'a/A' kommer lista ut orden hela bokstäver eller andra ord
+                som börjar med bokstav 'a/A'. Index är och används för att optimera databasens prestanda som gör alla frågor som ställs till databas kan behandlas snabbare.</p>
+
+            <b>Berätta vilka extra index du tillförde i din eshop</b>
+            <p>I början det var lite lurig att hitta bra index. Först började jag med leta efter vart har jag använt mig av select-frågor med where-vilkor, och för att se hur många rader söks genom testade jag med "Explain Select .. From .. Where ..". Jag
+                har lagt två index i produkt tabellen. De är en unique key för namn och key för pris.
+            </p>
+
+            <b>Berätta kort hur du ser på nyttan med funktioner i databasen</b>
+            <p>Det är smidigt att använda funktioner i databasen och man kan åter använda funktionen flera gånger.</p>
+
+            <b>Kommentera arbetet med din eshop, är du nöjd eller finns förbättringspotential och hur tycker du svårighetsgraden har varit på uppgiften eshop som helhet?</b>
+            <p>Det har gått väldigt bra för mig i detta moment. När jag blev klar med eshop märkte jag att mina route-fil och src-fil har blivit för långt och svårt att förstå om man har inte börjat med den själv och säkert kommer jag glömma bort hur har
+                jag tänkt mig att skriva metoderna. Så började jag att dela upp mina fler i olika delar för lättbarheten och gör mitt eget jobb lättare, och jag passade på byta namn på res och rows i min view-fil eftersom om det blir nåt fel så man kan
+                lätt fixa felet. Det tog lite mer tid i webbklienten än terminalklienten, men jag är nöjd med nu men kanske i nästa kursmoment kommer jag ändra på saker och utveckla designen mer.
+            </p>
+
+            <b>Berätta om någon extra sak du valde att göra i din eshop, om du gjorde något.</b>
+            <p>Jag gjort en funktion som soft-delete, la lite mer tid med plocklistan att få ett utskrift och hantering när man skapar en plocklista.</p>
+
+            <b>Vilken är din TIL för detta kmom?</b>
+            <p>Jag har lärt mig hur man skapar funktioner och dess användningen i databasen. Jag har lärt mig hur man kan använda index på kolumner i tabeller för bättre prestanda.</p>
+        </section>
+
+
+
+        <!-- Redovisningstext för kmom -->
+        <section>
+            <h2>Kmom07-10</h2>
+            <b>Skriv ett stycke om hur programmeringstentan gick att genomföra. Var tentan lätt eller svår? Tog det lång tid, stressigt? Vad var svårt och vad gick lätt?
+                Var det en bra och rimlig examination för kursen?</b>
+            <p>Det gick jättebra för mig att genomföra programmeringstentan. När jag jobbade med prep tentan det tog lite tid för att skapa de olika filer som behövdes att genomföra tentan, så innan try1 började skapade jag de filer redan från början för
+                att spara tiden och släppa stressa om de. Jag tyckte svårigheten av tentan för mig var inte så svårt och inte så lätt, mitt i mellan. Det gick fort att skapa tabeller än andra del av uppgifter, resten tog lite tid att få ordningen på de.
+                Examinationen utformades på ett sätt som kontrollerade vår kunskap om allt vi hittills lärt oss i databas kursen.
+            </p>
+
+            <b>För varje projektkrav du implementerat, dvs 1-3, skriver du ett textstycke om ca 5-10 meningar där du beskriver vad du gjort och hur du tänkt.
+                Poängsättningen tar sin start i din text så se till att skriva väl för att undvika poängavdrag.
+                Missar du att skriva/dokumentera din lösning så blir det 0 poäng. Du kan inte komplettera en inlämning för att få högre betyg.</b>
+            <p>
+                <li>Krav 1</li>
+                I detta var blandning av saker som jag har gjort i förre kursmomenter och det var inte så mycket att göra förutom att visa loggtabellen i webbklienten, ett förmular för att söka efter specifika händelser i loggtabellen. Lägg till nya produkter, redigera
+                en produkt tex. ändra pris på produkten m.m, borttagning av produkten (soft delete). När det kommer till terminalklienten man kan lägga till produkt i hylla med antal av produkter samt kan ta bort produkt med hjälp av produktid, hyllanr
+                och antal av produkter.
+                <br><br>
+                <li>Krav 2</li>
+                När jag blev klar med detta krav, eshopen kunde klara av order hantering. Kravet var att webbklienten skulle visa order detaljer, orders status, orderrader och kundens info. Terminalklienten klara av att skapa plocklistan som visar produkten om produkten
+                är beställd och om det är tillgänglig i lagret, även i webbklienten man kan se plocklistan med samma information som i visar i terminalklienten. Via terminalklient man kan skicka iväg ordern som ändrar statusen till "Skickad"
+            </p>
+
+            <b>Om du gjort projektet så skall du även spela in en redovisningsvideo som ett komplement till din redovisningstext och därmed underlätta rättningen av ditt projekt. I videon visar du tydligt vilka krav du löst och hur du löst dem.</b>
+            <p>Jag laddat upp min redovisningsvideo på Canvas men jag kommer dela den via google drive också för säker skull.</p>
+
+            <b>Skriv ett stycke om hur projektet gick att genomföra. Berätta om problem/lösningar/strul/enkelt/svårt/snabbt/lång tid, etc. Var projektet lätt eller svårt?
+                Tog det lång tid? Vad var svårt och vad gick lätt? Var det ett bra och rimligt projekt som avslutning på kursen?</b>
+            <p>Jag tyckte mycket om projektet och spännande att göra de olika krav. Jag hade mina nedgångar medan du gör projektet där jag fastnade med visa saker som tog tid att lösa de i ett smidigt sätt en av de sakerna för mig var att hur jag skulle
+                utföra plocklistan som skulle visa rätt info och göra rätt beräkningar av antal produkter i lagret. Det finns själv klart plats för eventuella förbättringar men jag kan utveckla eshopen i min fritid.
+            </p>
+
+            <b>Avsluta med ett sista stycke med dina tankar om kursen och vad du anser om materialet och handledningen (ca 5-10 meningar).
+                Ge feedback till lärarna och förslå eventuella förbättringsförslag till kommande kurstillfällen.
+                Är du nöjd/missnöjd? Kommer du att rekommendera kursen till dina vänner/kollegor? På en skala 1-10, vilket betyg ger du kursen?</b>
+            <p>Jag har inga negativa tankar om kursen, alla material var väl förklarade och relevant om ämnet för varje kursmoment. Lärareteamet var tillgänglig att lösa studenters problem via discord. Varje kursmoment var så att det byggde våra kunskap
+                om databaser sen genomförde vi ett projekt som testade vår kunskap och få intresse av databasar. Jag är väldigt nöjd med kursen och kommer rekommendera kursen till mina vänner. Kursen får 10/10 mig, bra jobbat så länge och försätt så.
+            </p>
+
+            <b></b>
+            <p></p>
+
+        </section>
+
+
+
+    </article>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

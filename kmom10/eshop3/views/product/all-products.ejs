@@ -1,0 +1,43 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Produkter</h1>
+
+    <br>
+    <table>
+        <thead align="left">
+            <tr>
+                <th>Produkt</th>
+                <th>Kategori</th>
+                <th>Namn</th>
+                <th>Pris</th>
+                <th>Antal</th>
+            </tr>
+        </thead>
+        <% for (const product of products) { %>
+            <tr>
+                <td>
+                    <a href="/eshop/product/show/<%= product.produktid %>">
+                        <%= product.produktid %>
+                    </a>
+                </td>
+                <td>
+                    <%= product.kategori %>
+                </td>
+                <td>
+                    <%= product.namn %>
+                </td>
+                <td>
+                    <%= product.pris %>
+                </td>
+                <td>
+                    <%= product.antal %>
+                </td>
+                <td>
+                    <a href="/eshop/product/edit/<%= product.produktid %>">&#x270e</a>
+                    <a href="/eshop/product/delete/<%= product.produktid %>">&#x1F5D1</a>
+                </td>
+            </tr>
+            <% }; %>
+    </table>
+
+    <%- include("../layouts/footer"); %>

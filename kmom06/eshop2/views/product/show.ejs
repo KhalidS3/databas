@@ -1,0 +1,37 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Product</h1>
+
+    <p>Details for product,
+        <%= product.produktid %>.</p>
+
+    <table>
+        <thead align="left">
+            <tr>
+                <th>id</th>
+                <th>Pris</th>
+                <th>Namn</th>
+                <th>Bildlank</th>
+                <th>Beskrivning</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>
+                <%= product.produktid %>
+            </td>
+            <td>
+                <%= product.pris %>
+            </td>
+            <td>
+                <%= product.namn %>
+            </td>
+            <td>
+                <%= product.bildlank %>
+            </td>
+            <td>
+                <%= product.beskrivning %>
+            </td>
+        </tr>
+    </table>
+
+    <%- include("../layouts/footer"); %>

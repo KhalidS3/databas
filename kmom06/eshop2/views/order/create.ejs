@@ -1,0 +1,22 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h2>Skapa ny order</h2><br>
+
+    <form class="label-left" method="post">
+        <fieldset>
+            <legend>Skapa order</legend>
+
+            <label>Kund</label>
+            <select name="customer_id">
+            <option value="0">Välj i listan</option>
+            <% for (const customer of customers) { %>
+                <option value ="<%= customer.kundid %>">
+                    <%= customer.namn %>
+                </option>
+            <% } %>
+        </select>
+            <input type="submit" name="doit" value="Skapa">
+        </fieldset>
+    </form>
+
+    <%- include("../layouts/footer"); %>

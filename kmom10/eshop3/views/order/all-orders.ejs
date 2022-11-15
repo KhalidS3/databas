@@ -1,0 +1,57 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Ordrar</h1>
+    <br>
+    <p><a href="/eshop/order/create" style="border:3px; border-style:solid; padding: 1em;">Skapa ny order</a></p>
+    <br>
+    <table>
+        <thead align="left">
+            <tr>
+                <th>Order id</th>
+                <th>Skapad</th>
+                <th>Kund id</th>
+                <th>Kund</th>
+                <th>Orderrader</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <% for (const order of orders) { %>
+            <tr>
+                <td>
+                    <a href="/eshop/order/show/<%= order.orderid %>" style="color:#F5F5F5;">
+                        <%= order.orderid %>
+                    </a>
+                </td>
+                <td>
+                    <%= order.skapad %>
+                </td>
+                <td>
+                    <%= order.kundid %>
+                </td>
+                <td>
+                    <%= order.namn %>
+                </td>
+                <td>
+                    <%= order.rader %>
+                </td>
+                <td>
+                    <%= order.status %>
+                </td>
+                <td>
+                    <button type="button" onclick="location.href='/eshop/order/picklist/<%= order.orderid %>'">Visa plocklistan</button>
+                </td>
+                <td>
+                    <button type="button" onclick="location.href='/eshop/order/show/<%= order.orderid %>'">Lägg till orderrad</button>
+                </td>
+                <td>
+                    <form method="post" action=/eshop/order/ordered>
+                        <input type="hidden" name="order_id" value="<%= order.orderid %>">
+                        <input type="submit" value="Beställ">
+                    </form>
+                </td>
+            </tr>
+            <% }; %>
+    </table>
+
+    <%- include("../layouts/footer"); %>

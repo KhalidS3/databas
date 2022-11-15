@@ -1,0 +1,21 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Kategorier</h1>
+
+    <br>
+    <table>
+        <tr>
+            <th>Kategori</th>
+        </tr>
+        <% for (const category of categories) { %>
+            <tr>
+                <td>
+                    <a href="/eshop/category/show/<%= category.kategori %>">
+                        <%= category.kategori %>
+                    </a>
+                </td>
+            </tr>
+            <% }; %>
+    </table>
+
+    <%- include("../layouts/footer"); %>

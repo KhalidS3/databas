@@ -1,0 +1,29 @@
+<%- include("../layouts/header", {title: title}); %>
+
+<h2>Create an order row</h2>
+
+<h3>Ordernr: <%= orderid %></h3>
+
+<form class="label-left" method="post" action=/eshop/order_row/create>
+
+    <label>Ordernr:</label>
+    <input type="number" name="order_id" readonly value=<%= orderid %>>
+
+    <label>Product</label>
+    <select name="product_id">
+        <option value="0">Välj i listan</option>
+        <% for (const product of products) { %>
+            <option value ="<%= product.produktid %>">
+                <%= product.namn %>
+            </option>
+        <% } %>
+    </select>
+    <br><br>
+    <label>Amount</label>
+    <input type="number" name="amount">
+    <br>
+    <input type="submit" name="doit" value="Create">
+
+</form>
+
+<%- include("../layouts/footer"); %>

@@ -1,0 +1,29 @@
+20210323192821
+.
+total 88
+drwxr-xr-x+ 1 khali khali     0 Mar 23 19:21 .dbwebb
+-rw-r--r--+ 1 khali khali  6375 Mar 23 19:21 INSTRUKTION_2018-03-21_upplevelse.md
+-rw-r--r--+ 1 khali khali  7468 Mar 23 19:21 INSTRUKTION_2018-05-31_det-stora-slaget-om-tartan.md
+-rw-r--r--+ 1 khali khali  7764 Mar 23 19:21 INSTRUKTION_2018-08-31_en-japansk-smakresa.md
+-rw-r--r--+ 1 khali khali  9668 Mar 23 19:21 INSTRUKTION_2019-03-28_Sakerhetspolisen-SAPO.md
+-rw-r--r--+ 1 khali khali 10089 Mar 23 19:21 INSTRUKTION_2019-05-30_Biblioteket.md
+-rw-r--r--+ 1 khali khali  9428 Mar 23 19:21 INSTRUKTION_2019-08-30_pingis.md
+-rw-r--r--+ 1 khali khali 10501 Mar 23 19:21 INSTRUKTION_2020-03-26_rock.md
+-rw-r--r--+ 1 khali khali 10713 Mar 23 19:21 INSTRUKTION_2020-05-29_vapen.md
+-rw-r--r--+ 1 khali khali  3926 Mar 23 19:21 README_FIRST.md
+./.dbwebb
+total 0
+drwxr-xr-x+ 1 khali khali 0 Mar 23 19:21 exam
+./.dbwebb/exam
+total 1
+drwxr-xr-x+ 1 khali khali  0 Mar 23 19:28 file
+-rw-r--r--+ 1 khali khali 36 Mar 23 19:21 id.md
+drwxr-xr-x+ 1 khali khali  0 Mar 23 19:28 receipt
+./.dbwebb/exam/file
+total 8
+-rw-rw-r--+ 1 khali khali 1233 Mar 23 19:21 20210323192111.txt
+-rw-rw-r--+ 1 khali khali 1070 Mar 23 19:28 20210323192821.txt
+./.dbwebb/exam/receipt
+total 2
+-rw-r--r--+ 1 khali khali 596 Mar 23 19:21 20210323182109.md
+-rw-rw-r--+ 1 khali khali 596 Mar 23 19:28 20210323192818.md

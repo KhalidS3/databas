@@ -1,0 +1,49 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Spelning info:</h1>
+
+    <table cellpadding="20">
+        <thead align="left">
+            <tr>
+                <th>Artist_id</th>
+                <th>Artist_namn</th>
+                <th>Speldag_id</th>
+                <th>Speldag_namn</th>
+                <th>Ort</th>
+                <th>Landskod</th>
+                <th>Spelning Datum</th>
+                <th>Klockslag</th>
+            </tr>
+        </thead>
+        <% for (const info of infos) { %>
+            <tr>
+                <td>
+                    <%= info.Artist_id %>
+                </td>
+                <td>
+                    <%= info.Artist_namn %>
+                </td>
+                <td>
+                    <%= info.Speldag_id %>
+                </td>
+                <td>
+                    <%= info.Speldag_namn %>
+                </td>
+                <td>
+                    <%= info.Ort %>
+                </td>
+                <td>
+                    <%= info.Landskod %>
+                </td>
+                <td>
+                    <%= info.Spelning %>
+                </td>
+                <td>
+                    <%= info.Klockslag %>
+                </td>
+            </tr>
+
+            <% } %>
+    </table>
+
+    <%- include("../layouts/footer"); %>

@@ -1,0 +1,136 @@
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+
+/* html,
+body {
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    line-height: 1.6;
+    margin: 8px auto;
+    background: #50bfbf;
+    width: 700px;
+} */
+
+body {
+    margin: 8px auto;
+    background: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    width: 700px;
+}
+
+header {
+    background-color: #666;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    padding: 0 2.5%;
+}
+
+
+/* #navbar {
+    display: block;
+    vertical-align: middle;
+    float: right;
+    width: 78%;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#navbar ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    webkit-align-item=center;
+
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-justify-content=space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+*/
+
+nav {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #666;
+}
+
+a {
+    /* RESET */
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    padding: 5px 5px;
+    overflow: hidden;
+    color: #333;
+    vertical-align: bottom;
+    transition: color 0.3s ease-out;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: translateY(calc(100% - 2px));
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(60deg, grey 0%, black 100%);
+    transition: transform 0.25s ease-out;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a:hover::before {
+    transform: translateY(0);
+    transition: transform 0.25s ease-out;
+}
+
+footer {
+    background-color: #666;
+    color: #fff;
+    padding: 1em;
+    width: 37%;
+    position: absolute;
+    bottom: 0;
+}
+
+table {
+    border: 1px solid #ccc;
+}
+
+th {
+    border-bottom: 1px solid #999;
+}
+
+td {
+    padding: 0.2em;
+    /* color: rgb(218, 216, 216); */
+}
+
+td.right {
+    text-align: right;
+}
+
+tr:hover {
+    background-color: #eee;
+}

@@ -1,0 +1,31 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h1>Detaljer om orderid
+        <%= order.orderid %>.</h1>
+
+    <h2>Kund:
+        <%= order.namn %>
+    </h2>
+
+    <h3>Orderrader</h3>
+
+    <% for (const orderRow of orderRows) { %>
+        <p>
+            <%= orderRow.antal %> st
+                <%= orderRow.namn %>
+        </p>
+    <% } %>
+
+    <p>
+        <a href="/eshop/order_row/create/<%= order.orderid %>">
+            Lägg till rad
+        </a>
+    </p>
+    <br>
+    <p>
+        <a href="/eshop/order/">
+                Tillbaka till ordrar
+        </a>
+    </p>
+
+<%- include("../layouts/footer"); %>

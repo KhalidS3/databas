@@ -1,0 +1,39 @@
+<%- include("../layouts/header", {title: title}); %>
+    <br><br>
+    <h1>Kunder</h1>
+
+    <table>
+        <thead align="left">
+            <tr>
+                <th>Id</th>
+                <th>Namn</th>
+                <th>Adress</th>
+                <th>Telefon</th>
+            </tr>
+        </thead>
+
+        <% for (const customer of customers) { %>
+            <tr>
+                <td>
+                    <%= customer.kundid %>
+                </td>
+                <td>
+                    <%= customer.namn %>
+                </td>
+                <td>
+                    <%= customer.adress %>
+                </td>
+                <td>
+                    <%= customer.telefon %>
+                </td>
+                <td>
+                    <form method="post" action=/eshop/order/create>
+                        <input type="hidden" name="customer_id" value="<%= customer.kundid %>">
+                        <input type="submit" value="Skapa order">
+                    </form>
+                </td>
+            </tr>
+            <% }; %>
+    </table>
+
+    <%- include("../layouts/footer"); %>

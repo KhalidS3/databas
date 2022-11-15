@@ -1,0 +1,28 @@
+<%- include("../layouts/header", {title: title}); %>
+
+    <h2>Skapa ny produkt</h2><br>
+
+    <form class="label-left" method="post">
+        <fieldset>
+            <legend>Skapa produkt</legend>
+
+            <label for="produktid">Id</label>
+            <input id="produktid" type="text" name="produktid">
+
+            <label for="pris">Pris</label>
+            <input id="pris" type="number" name="pris">
+
+            <label for="namn">Namn</label>
+            <input id="namn" type="text" name="namn" size="45">
+
+            <label for="bildlank">Bildlank</label>
+            <input id="bildlank" type="text" name="bildlank" size="45">
+
+            <label for="beskrivning">Beskrivning</label>
+            <input id="beskrivning" type="text" name="beskrivning" size="85">
+
+            <input type="submit" name="doit" value="Skapa">
+        </fieldset>
+    </form>
+
+    <%- include("../layouts/footer"); %>

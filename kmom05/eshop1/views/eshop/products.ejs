@@ -1,0 +1,45 @@
+<%- include("header", {title: title}); %>
+
+    <h1>Products</h1>
+
+    <p>Here are our products:</p>
+
+    <table>
+        <thead align="left">
+            <tr>
+                <th>Produkt</th>
+                <th>Kategori</th>
+                <th>Namn</th>
+                <th>Pris</th>
+                <th>Antal</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <% for (const row of res[0]) { %>
+            <tr>
+                <td>
+                    <a href="/eshop/product/<%= row.produktid %>">
+                        <%= row.produktid %>
+                    </a>
+                </td>
+                <td>
+                    <%= row.kategori %>
+                </td>
+                <td>
+                    <%= row.namn %>
+                </td>
+                <td>
+                    <%= row.pris %>
+                </td>
+                <td>
+                    <%= row.antal %>
+                </td>
+                <td>
+                    <a href="/eshop/edit/<%= row.produktid %>">&#x270e</a>
+                    <a href="/eshop/delete/<%= row.produktid %>">&#x1F5D1</a>
+                </td>
+            </tr>
+            <% }; %>
+    </table>
+
+    <%- include("footer"); %>
